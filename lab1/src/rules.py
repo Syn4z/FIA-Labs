@@ -4,11 +4,11 @@ from production import IF, AND, THEN, OR, DELETE, NOT, FAIL
 # Tourists types
 """
 LunaCity is a LEGO city where tourists can admire all kind of LEGO sets and collections in one place.
-1. LEGO Technic (tan skin, tall, eyeglasses, screwdriver, )
-2. LEGO Creator (brown skin, average height, sunglasses, sketchbook, )
-3. LEGO Star Wars (light skin, short, sunglasses, lightsaber, )
-4. LEGO City (light skin, short, baseball cap, camera, )
-5. LEGO Adventurers (dark skin, average height, hat, compass, )
+1. LEGO Technic (tan skin, tall, eyeglasses, screwdriver, likes vehicles, )
+2. LEGO Creator (brown skin, average height, sunglasses, sketchbook, likes art, )
+3. LEGO Star Wars (light skin, short, sunglasses, watch, likes movies, )
+4. LEGO City (light skin, short, baseball cap, camera, likes architecture, )
+5. LEGO Adventurers (dark skin, average height, hat, compass, likes museums, )
 
 6. LunaCity citizen(NOT a tourist)(normal skin, )
 """

@@ -58,9 +58,26 @@ def backward_chain(rules, hypothesis, verbose=False):
     Outputs the goal tree from having rules and hypothesis, works like an "encyclopedia"
     """
 
-    # TODO: you should implement backward_chain algorithm here
+    result = list()
+    go = True
+    while go == True:
+        for rule in rules:
+            # print(rule.consequent()[0])
+            # print(match(rule.consequent()[0], f"{hypothesis} is a {hypothesis}"))
+            if match(rule.consequent()[0], f"{hypothesis} is a {hypothesis}"):
+                for x in rule.antecedent():
+                    result.append(x)
+                print(result)
+            if result != []:
+                # print(rule.consequent()[0], result[0])
+                if rule.consequent()[0] in result:
+                    for x in rule.antecedent():
+                        result.append(x)
+                    go = False
+                # print(rule.consequent()[0], result[0])
+            # print(result)
 
-    return "TODO: implement backward_chain" #change return
+    return result
 
 
 def instantiate(template, values_dict):
