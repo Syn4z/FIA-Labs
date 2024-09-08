@@ -1,5 +1,6 @@
 # import re
 import sys
+from time import sleep
 if sys.version[0]=='2':
     import re
   
@@ -59,24 +60,21 @@ def backward_chain(rules, hypothesis, verbose=False):
     """
 
     result = list()
-    go = True
-    while go == True:
+    search = True
+    while search == True:
         for rule in rules:
-            # print(rule.consequent()[0])
-            # print(match(rule.consequent()[0], f"{hypothesis} is a {hypothesis}"))
-            if match(rule.consequent()[0], f"{hypothesis} is a {hypothesis}"):
-                for x in rule.antecedent():
-                    result.append(x)
-                print(result)
+            for expr in rule.consequent():
+                if match(expr, hypothesis):
+                    for antecedent_fact in rule.antecedent():
+                        if antecedent_fact not in result: 
+                            result.append(antecedent_fact)
+                                    
             if result != []:
-                # print(rule.consequent()[0], result[0])
                 if rule.consequent()[0] in result:
-                    for x in rule.antecedent():
-                        result.append(x)
-                    go = False
-                # print(rule.consequent()[0], result[0])
-            # print(result)
-
+                    for antecedent_fact in rule.antecedent():
+                        if antecedent_fact not in result:
+                            result.append(antecedent_fact)
+                    search = False       
     return result
 
 
