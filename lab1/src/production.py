@@ -57,25 +57,69 @@ def forward_chain(rules, data, apply_only_one=False, verbose=True):
 def backward_chain(rules, hypothesis, verbose=False):
     """
     Outputs the goal tree from having rules and hypothesis, works like an "encyclopedia"
+    This function attempts to find the necessary antecedents to support a given hypothesis by
+    recursively applying rules until no further matching rules are found.
+    
+    Args:
+        rules (list): A list of rule objects, where each rule has `antecedent()` and `consequent()` methods.
+        hypothesis (str): The hypothesis we want to prove or explore.
+        verbose (bool): If True, print detailed output (not currently used in this function).
+
+    Returns:
+        tuple: A tuple containing:
+            - list: A list of facts that support the hypothesis.
+            - str: A human-readable string that represents the goal tree.
     """
 
+    # Initialize the utils to be used in the function
     result = list()
-    search = True
-    while search == True:
+    name = hypothesis.split(" ")[0]
+    humanReadableOutput = f"{hypothesis}: \n"
+
+    def lookFor(hypothesis, rules, humanReadableOutput):
+        """
+        Recursively searches for antecedents to support the given hypothesis using the provided rules.
+        
+        Args:
+            hypothesis (str): The current hypothesis to prove.
+            rules (list): The list of rule objects.
+            humanReadableOutput (str): The current state of the human-readable output string.
+
+        Returns:
+            tuple: A tuple containing:
+                - list: Updated list of facts that support the hypothesis.
+                - str: Updated human-readable output string.
+        """
+        matchFound = False  # Flag to indicate if a matching was found between a rule consequent and the hypothesis.
+        # Iterate through the consequent of each rule until finding a match.
         for rule in rules:
             for expr in rule.consequent():
-                if match(expr, hypothesis):
+                if match(expr, hypothesis): 
+                    matchFound = True
+                    newHypothesis = rule.antecedent()[0]    # Get the first antecedent of the rule to be the next search.
+                    # Add all the antecedents without duplicates to the result list.
                     for antecedent_fact in rule.antecedent():
                         if antecedent_fact not in result: 
                             result.append(antecedent_fact)
-                                    
-            if result != []:
-                if rule.consequent()[0] in result:
-                    for antecedent_fact in rule.antecedent():
-                        if antecedent_fact not in result:
-                            result.append(antecedent_fact)
-                    search = False       
-    return result
+                            # Format the output results to be human-readable.
+                            humanReadableOutput += str(antecedent_fact.replace("(?x)", " ")) + "," "\n"
+        # If no match (meaning there are no antecedents for the hypothesis) was found and there are no more rules to check, return the results.
+        if not matchFound:
+            print("No match found and no more rules to check.") 
+            # Remove the last line(intermediary state) from the human-readable output because there are no antecedents to show for this state.
+            humanReadableOutput = humanReadableOutput.splitlines()
+            if humanReadableOutput:
+                humanReadableOutput.pop()
+            humanReadableOutput = "\n".join(humanReadableOutput)
+            return result, humanReadableOutput
+        # If a match was found, continue the search with the new hypothesis.
+        humanReadableOutput += str(newHypothesis.replace("(?x)", name)) + " who" + ": \n"
+        
+        # Recursively call the function with the new hypothesis.
+        return lookFor(newHypothesis, rules, humanReadableOutput) 
+    
+    result, humanReadableOutput = lookFor(hypothesis, rules, humanReadableOutput)                                 
+    return result, humanReadableOutput
 
 
 def instantiate(template, values_dict):

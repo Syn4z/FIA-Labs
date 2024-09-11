@@ -4,5 +4,6 @@ from rules import LEGO_TOURIST_RULES, LEGO_TOURIST_DATA
 
 
 if __name__=='__main__':
-    result = backward_chain(ZOOKEEPER_RULES, 'dinu is a zebra')
-    print(result)
+    result, humanReadable = backward_chain(LEGO_TOURIST_RULES, 'dinu is a LEGO Adventurers tourist')
+    print(humanReadable)
+    # result = forward_chain(LEGO_TOURIST_RULES, LEGO_TOURIST_DATA)
