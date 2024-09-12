@@ -112,4 +112,5 @@ def AIStringToPyTemplate(AIStr):
 def AIStringVars(AIStr):
     # This is not the fastest way of doing things, but
     # it is probably the most explicit and robust
-    return set([ AIRegex.sub(r'\1', x) for x in AIRegex.findall(AIStr) ])
+    return set([ AIRegex.sub(r'\1', x) for x in AIRegex.findall(AIStr) ]) 
+    

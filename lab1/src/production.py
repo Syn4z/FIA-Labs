@@ -30,7 +30,7 @@ except NameError:
 ### >>> import production
 ### >>> help(production)
 
-def forward_chain(rules, data, apply_only_one=False, verbose=True):
+def forward_chain(rules, data, apply_only_one=False, verbose=False):
     """
     Apply a list of IF-expressions (rules) through a set of data
     in order.  Return the modified data set that results from the
