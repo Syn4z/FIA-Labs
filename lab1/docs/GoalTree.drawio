@@ -1,0 +1,249 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.13">
+  <diagram name="Page-1" id="NH8GAjWlDfWqpzdi7bjK">
+    <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zySOMT1a1696XZ_GMipP-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-2" target="zySOMT1a1696XZ_GMipP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-2" value="attends themed events and conventions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-3" target="zySOMT1a1696XZ_GMipP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-3" value="purchases merchandise" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-4" target="zySOMT1a1696XZ_GMipP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-4" value="engages with building and collecting activities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-5" target="zySOMT1a1696XZ_GMipP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-5" value="takes photos of themed builds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-6" target="zySOMT1a1696XZ_GMipP-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-6" target="zySOMT1a1696XZ_GMipP-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-6" target="zySOMT1a1696XZ_GMipP-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-6" target="zySOMT1a1696XZ_GMipP-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="380" />
+              <mxPoint x="460" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-6" target="zySOMT1a1696XZ_GMipP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-6" value="tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-17" value="OR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="365" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-18" target="zySOMT1a1696XZ_GMipP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-18" value="purchases complex and functional LEGO sets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-19" target="zySOMT1a1696XZ_GMipP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-19" value="engages with mechanics and engineering models" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-20" value="LEGO Technic tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-26" target="zySOMT1a1696XZ_GMipP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-26" value="shows interest in the creative aspects of LEGO builds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-28" target="zySOMT1a1696XZ_GMipP-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-28" value="participates in modular building activities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-29" value="LEGO Creator tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-31" target="zySOMT1a1696XZ_GMipP-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-31" value="participates in Star Wars-related events and screenings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-33" target="zySOMT1a1696XZ_GMipP-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-33" value="is focused on Star Wars-themed sets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-34" value="LEGO Star Wars tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-36" target="zySOMT1a1696XZ_GMipP-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-36" value="shows interest in realistic cityscape and civic buildings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-38" target="zySOMT1a1696XZ_GMipP-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-38" value="engages with urban planning activities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-39" value="LEGO City tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-41" target="zySOMT1a1696XZ_GMipP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-41" value="participates in adventure-based activities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-42" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-43" target="zySOMT1a1696XZ_GMipP-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-43" value="seeks exploration-themed LEGO sets" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-44" value="LEGO Adventurers tourist" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-51" target="zySOMT1a1696XZ_GMipP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-51" value="visits less-known or hidden LEGO locations" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zySOMT1a1696XZ_GMipP-52" target="zySOMT1a1696XZ_GMipP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-52" value="can give directions to local LEGO attractions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-53" value="Loonie" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-56" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="700" as="sourcePoint" />
+            <mxPoint x="280" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-57" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-56">
+          <mxGeometry x="-0.3069" y="-7" relative="1" as="geometry">
+            <mxPoint x="-21" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-58" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="100" as="sourcePoint" />
+            <mxPoint x="650" y="60" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-59" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-58">
+          <mxGeometry x="-0.2312" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-60" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="300" as="sourcePoint" />
+            <mxPoint x="650" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-61" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-60">
+          <mxGeometry x="-0.2312" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-62" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="500" as="sourcePoint" />
+            <mxPoint x="650" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-63" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-62">
+          <mxGeometry x="-0.2312" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-64" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="700" as="sourcePoint" />
+            <mxPoint x="650" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-65" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-64">
+          <mxGeometry x="-0.2312" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-66" value="" style="endArrow=none;html=1;rounded=0;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="400" as="sourcePoint" />
+            <mxPoint x="1010" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1000" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zySOMT1a1696XZ_GMipP-67" value="AND" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zySOMT1a1696XZ_GMipP-66">
+          <mxGeometry x="-0.2312" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

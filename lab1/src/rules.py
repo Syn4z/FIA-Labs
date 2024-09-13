@@ -3,17 +3,16 @@ from production import IF, AND, THEN, OR, DELETE, NOT, FAIL
 
 # Tourists types
 """
-LunaCity is a LEGO city where tourists can admire all kind of LEGO sets and collections in one place.
-1. LEGO Technic 
-2. LEGO Creator
-3. LEGO Star Wars 
-4. LEGO City 
-5. LEGO Adventurers
+Luna-City is a LEGO city where tourists can admire all kind of LEGO sets and collections in one place.
+1. LEGO Technic tourist
+2. LEGO Creator tourist
+3. LEGO Star Wars tourist
+4. LEGO City tourist
+5. LEGO Adventurers tourist
 
-6. LunaCity citizen(NOT a tourist)
+6. Luna-City citizen(NOT a tourist)
 """
 
-#TO DO: Define the LEGO_TOURIST_RULES
 LEGO_TOURIST_RULES = (
     IF( AND( '(?x) attends themed events and conventions' ),                    # L1
         THEN( '(?x) is a tourist' )),
@@ -54,7 +53,7 @@ LEGO_TOURIST_RULES = (
 
     IF( AND( '(?x) visits less-known or hidden LEGO locations',                 # L9
              '(?x) can give directions to local LEGO attractions' ),                                       
-        THEN( '(?x) is a looney' ))      
+        THEN( '(?x) is a Loonie' ))      
 )
 
 LEGO_TOURIST_DATA = (
@@ -67,4 +66,3 @@ LEGO_TOURIST_DATA = (
     'syd visits less-known or hidden LEGO locations',
     'syd can give directions to local LEGO attractions',
 )
-
