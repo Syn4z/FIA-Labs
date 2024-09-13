@@ -4,14 +4,14 @@ from production import forward_chain
 touristTypes = ["(?x) is a LEGO Technic tourist", "(?x) is a LEGO Creator tourist", "(?x) is a LEGO Star Wars tourist", "(?x) is a LEGO City tourist", "(?x) is a LEGO Adventurers tourist", "(?x) is a Loonie"]
 
 def mainMenu():
-    print("\n=============================")
+    print("\n==========================")
     print("LEGO Tourist Expert System   ")
-    print("=============================\n")
+    print("==========================\n")
     
-    print("Welcome! In this system, I'll help identify who you are.\n")
+    print("Welcome! In this system, I'll help identify who your person is.\n")
     
     while True:
-        name = input("Enter your name to start: ")
+        name = input("Enter a name to start: ")
         if name == "":
             print("Name cannot be empty. Please enter a valid name.")
             continue
@@ -25,9 +25,9 @@ def mainMenu():
         hypothesis = "(?x) is a Loonie"    
     result = askYesNoQuestion(LEGO_TOURIST_RULES, name, facts, hypothesis)
     
-    print("\n======================================")
-    print("Thank you for participating, {}!".format(name))
-    print("======================================\n")
+    print("\n============================")
+    print("Thank you for participating!")
+    print("============================\n")
     
     return result
 
@@ -59,10 +59,8 @@ def askRankingQuestion(rules, name, result):
                 print(e)
     
     sorted_rankings = sorted(rankings.items(), key=lambda item: item[1], reverse=True)
-    top_ranked_theme = sorted_rankings[:2]
     fact = []
-    print("\nYour top two themes are:", top_ranked_theme)
-    for preference, rank in top_ranked_theme:
+    for preference, rank in sorted_rankings:
         if preference == "Engaging with mechanics and engineering models":
             fact.append("(?x) engages with mechanics and engineering models")
             hypothesis.append("(?x) is a LEGO Technic tourist")
@@ -131,40 +129,77 @@ def askMultipleChoiceQuestion(rules, name, result):
 
 def askYesNoQuestion(rules, name, result, hypothesis):
     found = False
-    for rule in rules:
-        for statement in rule.consequent():
-            if statement in hypothesis:
-                for condition in rule.antecedent():
-                    if condition.replace("(?x)", name) not in result:
-                        print(condition.replace("(?x)", name) + "?")
-                        while True:
-                            response = input("Enter 'yes' or 'no': ").lower()
-                            if response == "yes":
-                                y = list(result)
-                                y.append(condition.replace("(?x)", name))
-                                result = tuple(y)
-                                result = forward_chain(rules, result)
-                                break
-                            elif response == "no":
-                                break
+    if isinstance(hypothesis, list):
+        for specific_hypothesis in hypothesis:
+            for rule in rules:
+                for statement in rule.consequent():
+                    if statement == specific_hypothesis:
+                        for condition in rule.antecedent():
+                            if condition.replace("(?x)", name) not in result:
+                                print(condition.replace("(?x)", name) + "?")
+                                while True:
+                                    response = input("Enter 'yes' or 'no': ").lower()
+                                    if response == "yes":
+                                        y = list(result)
+                                        y.append(condition.replace("(?x)", name))
+                                        result = tuple(y)
+                                        result = forward_chain(rules, result)
+                                        break
+                                    elif response == "no":
+                                        break
+                                    else:
+                                        print("Invalid input. Please enter 'yes' or 'no'.")
+                                        continue
+                                for element in result:
+                                    formatted = element.split(" ", 1)
+                                    if len(formatted) > 1:
+                                        element = f"(?x) {formatted[1]}"
+                                    if element in touristTypes:
+                                        print("\n " + "--- " + element.replace("(?x)", name) + " ---")
+                                        found = True
+                                        break
                             else:
-                                print("Invalid input. Please enter 'yes' or 'no'.")
-                                continue
-                        for element in result:
-                            formatted = element.split(" ", 1)
-                            if len(formatted) > 1:
-                                element = f"(?x) {formatted[1]}"
-                            if element in touristTypes:
-                                print("\n " + "--- " + element.replace("(?x)", name) + " ---")
-                                found = True
-                                break
-                    else:
-                        continue   
-            else:
-                continue         
-        if found:   
-            break
+                                continue   
+                else:
+                    continue         
+            if found:   
+                break
+    else:
+        for rule in rules:
+            for statement in rule.consequent():
+                if statement == hypothesis:
+                    for condition in rule.antecedent():
+                        if condition.replace("(?x)", name) not in result:
+                            print(condition.replace("(?x)", name) + "?")
+                            while True:
+                                response = input("Enter 'yes' or 'no': ").lower()
+                                if response == "yes":
+                                    y = list(result)
+                                    y.append(condition.replace("(?x)", name))
+                                    result = tuple(y)
+                                    result = forward_chain(rules, result)
+                                    break
+                                elif response == "no":
+                                    break
+                                else:
+                                    print("Invalid input. Please enter 'yes' or 'no'.")
+                                    continue
+                            for element in result:
+                                formatted = element.split(" ", 1)
+                                if len(formatted) > 1:
+                                    element = f"(?x) {formatted[1]}"
+                                if element in touristTypes:
+                                    print("\n " + "--- " + element.replace("(?x)", name) + " ---")
+                                    found = True
+                                    break
+                        else:
+                            continue   
+                else:
+                    continue         
+            if found:   
+                break
+
     if not found:
-        print("\nUnfortunately, I dont have enough information to determine who are you.")      
+        print(f"\nUnfortunately, I dont have enough information to determine who {name} is.")      
                     
     return result
