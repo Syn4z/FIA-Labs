@@ -60,9 +60,4 @@ LEGO_TOURIST_DATA = (
     'joe attends themed events and conventions',
     'joe engages with mechanics and engineering models',
     'joe purchases complex and functional LEGO sets',
-    'sue takes photos of themed builds',
-    'sue participates in modular building activities',
-    'sue shows interest in the creative aspects of LEGO builds',
-    'syd visits less-known or hidden LEGO locations',
-    'syd can give directions to local LEGO attractions',
 )

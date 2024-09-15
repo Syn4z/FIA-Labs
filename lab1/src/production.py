@@ -74,7 +74,7 @@ def backward_chain(rules, hypothesis, verbose=False):
     # Initialize the utils to be used in the function
     result = list()
     name = hypothesis.split(" ")[0]
-    humanReadableOutput = f"{hypothesis}: \n"
+    humanReadableOutput = f"{hypothesis} who: \n"
 
     def lookFor(hypothesis, rules, humanReadableOutput):
         """
@@ -105,7 +105,7 @@ def backward_chain(rules, hypothesis, verbose=False):
                             humanReadableOutput += str(antecedent_fact.replace("(?x)", " ")) + "," "\n"
         # If no match (meaning there are no antecedents for the hypothesis) was found and there are no more rules to check, return the results.
         if not matchFound:
-            print("No match found and no more rules to check.") 
+            print("No match found or no more rules to check.") 
             # Remove the last line(intermediary state) from the human-readable output because there are no antecedents to show for this state.
             humanReadableOutput = humanReadableOutput.splitlines()
             if humanReadableOutput:
