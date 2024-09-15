@@ -25,7 +25,7 @@ I have defined 5 types of Luna-City tourists, being:
 
 And there is another category which is Loonie, meaning NOT a tourist.
 
-I have defined 4 facts for to determine if it falls in the category of a tourist, if one of these facts is true then the person is in fact a tourist. For each individual category of tourists I added 2 facts both of which need to be true and the state prior of being a tourist. For Loonie I have 2 facts, both of which need to be true, but it can arrive here just if it is confirmed that the person declines each tourist fact.
+I have defined 4 facts to determine if it falls in the category of a tourist, if one of these facts is true then the person is in fact a tourist. For each individual category of tourists I added 2 facts both of which need to be true and the tourist state to be true. For Loonie I have 2 facts, both of which need to be true, but it can arrive here just if it is confirmed that the person declines each tourist fact.
 
 So, finally I have represented my Goal Tree: 
 
@@ -523,9 +523,9 @@ def mainMenu():
 ```
 
 ## Conclusions
-In summary, in this laboratory work I managed to implement an expert system to identify tourist types in an imaginary city Luna-City. I implemented the backward_chain algorithm to have both forward and backward traversation of the Goal Tree. I was able to gain knowledge about this basic system that will serve as a fundamental for further learning in this course.
+In summary, in this laboratory work I managed to implement an expert system to identify tourist types in an imaginary city Luna-City. I implemented the backward_chain algorithm to have both forward and backward traversion of the Goal Tree. I was able to gain knowledge about this basic system that will serve as a fundamental for further learning in this course.
 
-Finally, implementing all the theoretical knowledge into working python code got me hands on experience with this type of systems and helped me to understand how can i integrate such algorithms to resolve this type of problems.
+Finally, implementing all the theoretical knowledge into working python code got me hands on experience with this type of systems and helped me to understand how I can integrate such algorithms to resolve these types of problems.
 
 ## Bibliography
 - [Docstrings](https://www.geeksforgeeks.org/python-docstrings/)
