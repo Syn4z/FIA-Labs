@@ -531,3 +531,6 @@ Finally, implementing all the theoretical knowledge into working python code got
 - [Docstrings](https://www.geeksforgeeks.org/python-docstrings/)
 - [Goal Trees](https://www.youtube.com/watch?v=leXa7EKUPFk&list=PLUl4u3cNGP63gFHB6xb-kVBiQHYe_4hSi&index=5)
 - [Diagram Tool](https://app.diagrams.net/)
+
+## Credits
+Helped by Gutu Dinu FAF-213.
