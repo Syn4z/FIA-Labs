@@ -310,6 +310,6 @@ def askYesNoQuestion(rules, name, result, hypothesis):
 
     # If no conclusion is reached, inform the user
     if not found:
-        print(f"\nUnfortunately, I don't have enough information to determine who {name} is.")
+        print(f"\n{name} is a Loonie.")
     
     return result 
