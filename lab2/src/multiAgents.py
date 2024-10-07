@@ -108,93 +108,115 @@ class ReflexAgent(Agent):
 
 def scoreEvaluationFunction(currentGameState):
     """
-      This default evaluation function just returns the score of the state.
-      The score is the same one displayed in the Pacman GUI.
+    This default evaluation function returns the score of the current game state.
+    The score is the same as the one displayed in the Pacman GUI.
 
-      This evaluation function is meant for use with adversarial search agents
-      (not reflex agents).
+    The function evaluates the state's desirability for Pacman based on:
+    - Distance to the nearest food pellet.
+    - Distance to the nearest ghost (only considered if the ghost is not scared).
+    
+    Special Cases:
+    - If Pacman wins, the score is set to positive infinity.
+    - If Pacman loses, the score is set to negative infinity.
+
+    Args:
+        currentGameState (GameState): The current state of the game, which contains information 
+        about Pacman's position, ghosts, food locations, and win/lose status.
+
+    Returns:
+        float: The evaluated score of the current state.
     """
 
     pacmanPos = currentGameState.getPacmanPosition()
     ghostList = currentGameState.getGhostStates() 
     foods = currentGameState.getFood()
-    capsules = currentGameState.getCapsules()
-    # Return based on game state
+
+    # If Pacman has won, return positive infinity
     if currentGameState.isWin():
         return float("inf")
+    
+    # If Pacman has lost, return negative infinity
     if currentGameState.isLose():
         return float("-inf")
-    # Populate foodDistList and find minFoodDist
+
+    # Calculate the distance to each food pellet
     foodDistList = []
     for each in foods.asList():
-        foodDistList = foodDistList + [util.manhattanDistance(each, pacmanPos)]
-    minFoodDist = min(foodDistList)
-    # Populate ghostDistList and scaredGhostDistList, find minGhostDist and minScaredGhostDist
-    ghostDistList = []
-    scaredGhostDistList = []
-    for each in ghostList:
-        if each.scaredTimer == 0:
-            ghostDistList = ghostDistList + [util.manhattanDistance(pacmanPos, each.getPosition())]
-        elif each.scaredTimer > 0:
-            scaredGhostDistList = scaredGhostDistList + [util.manhattanDistance(pacmanPos, each.getPosition())]
-    minGhostDist = -1
-    if len(ghostDistList) > 0:
-        minGhostDist = min(ghostDistList)
-    minScaredGhostDist = -1
-    if len(scaredGhostDistList) > 0:
-        minScaredGhostDist = min(scaredGhostDistList)
-    score = minFoodDist - minGhostDist
+        foodDistList.append(util.manhattanDistance(each, pacmanPos))
 
+    # Get the minimum distance to the closest food pellet
+    minFoodDist = min(foodDistList)
+
+    # Calculate the distance to each ghost
+    ghostDistList = []
+    for each in ghostList:
+        if each.scaredTimer == 0:  # Only consider active (non-scared) ghosts
+            ghostDistList.append(util.manhattanDistance(pacmanPos, each.getPosition()))
+    
+    # If there are active ghosts, get the minimum distance to the closest ghost
+    minGhostDist = -1
+    if ghostDistList:
+        minGhostDist = min(ghostDistList)
+
+    # The score is based on minimizing the distance to food and avoiding ghosts
+    score = minFoodDist - minGhostDist
     return score
 
 def improvedEvaluationFunction(currentGameState):
     """
-      Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
-      evaluation function (question 5).
+    This is an advanced evaluation function for the Pacman game. It improves Pacman's decision-making
+    by considering various values beyond just the basic game score. The function calculates a score 
+    based on the following aspects of the game state:
 
-      DESCRIPTION: This evaluation function considers the following factors:
-      - Distance to the nearest food
-      - Distance to the nearest ghost (penalizes being close to active ghosts)
-      - Distance to the nearest scared ghost (prioritizes eating scared ghosts)
-      - Number of remaining food pellets
+    Values:
+    - Distance to the nearest food: Pacman should prioritize moving toward the closest food pellet.
+    - Distance to the nearest ghost: Pacman should avoid getting too close to active ghosts.
+    - Distance to the nearest scared ghost: If a ghost is scared, Pacman should prioritize eating it.
+    - Number of remaining food pellets: Fewer remaining pellets increase the urgency of eating them.
+
+    Args:
+        currentGameState: The current state of the game, which includes the position of Pacman,
+                          ghosts, food, score, and the game status (win/lose).
+
+    Returns:
+        score (float): A calculated evaluation score for the current game state, with higher
+                       scores representing better positions for Pacman.
     """
-    pacmanPos = currentGameState.getPacmanPosition()
-    ghostList = currentGameState.getGhostStates()
-    foods = currentGameState.getFood()
-    capsules = currentGameState.getCapsules()
+    pacmanPos = currentGameState.getPacmanPosition()  
+    ghostList = currentGameState.getGhostStates()     
+    foods = currentGameState.getFood()                
 
+    # If the game is won or lost, return a very high or low score accordingly
     if currentGameState.isWin():
         return float("inf")
     if currentGameState.isLose():
         return float("-inf")
 
-    # Distance to the nearest food
+    # Calculate the distance to the nearest food pellet
     foodDistList = [util.manhattanDistance(pacmanPos, food) for food in foods.asList()]
-    minFoodDist = min(foodDistList) if foodDistList else 0
+    minFoodDist = min(foodDistList) if foodDistList else 0  
 
-    # Distance to the nearest ghost and scared ghost
-    ghostDistList = []
-    scaredGhostDistList = []
+    # Separate active ghosts from scared ghosts based on their scared timer
+    ghostDistList = []  
+    scaredGhostDistList = [] 
     for ghost in ghostList:
-        if ghost.scaredTimer == 0:
+        if ghost.scaredTimer == 0:  # Active ghost
             ghostDistList.append(util.manhattanDistance(pacmanPos, ghost.getPosition()))
-        else:
+        else:  # Scared ghost
             scaredGhostDistList.append(util.manhattanDistance(pacmanPos, ghost.getPosition()))
 
     minGhostDist = min(ghostDistList) if ghostDistList else float("inf")
-    minScaredGhostDist = min(scaredGhostDistList) if scaredGhostDistList else 0
-
-    # Number of remaining food pellets
+    minScaredGhostDist = min(scaredGhostDistList) if scaredGhostDistList else 0  
     remainingFood = len(foods.asList())
 
-    # Calculate the score
+    # Calculate the evaluation score based on the various factors
     score = currentGameState.getScore()
-    score += -1.5 * minFoodDist
-    score += -2 * (1.0 / minGhostDist) if minGhostDist != float("inf") else 0
-    score += 2 * (1.0 / minScaredGhostDist) if minScaredGhostDist != 0 else 0
-    score += -2.5 * remainingFood
+    score += -1.5 * minFoodDist  
+    score += -2 * (1.0 / minGhostDist) if minGhostDist != float("inf") else 0  
+    score += 2 * (1.0 / minScaredGhostDist) if minScaredGhostDist != 0 else 0  
+    score += -2.5 * remainingFood  
+    return score  
 
-    return score
 
 class MultiAgentSearchAgent(Agent):
     """
@@ -218,14 +240,43 @@ class MultiAgentSearchAgent(Agent):
 
 
 class MinimaxAgent(MultiAgentSearchAgent):
+    
     def getAction(self, gameState):
+        """
+        Returns the best action for Pacman using the Minimax algorithm with a fixed search depth.
+
+        The agent evaluates all possible future states up to a certain depth, alternating between
+        Pacman's (maximizing) and ghosts' (minimizing) turns. The action that maximizes Pacman's 
+        chances of winning or achieving the highest score is selected.
+
+        Args:
+            gameState (GameState): The current state of the game.
+
+        Returns:
+            str: The best action Pacman can take (e.g., 'North', 'South').
+        """
+        
         def minimax(agentIndex, depth, gameState):
+            """
+            A helper function that recursively performs Minimax search.
+
+            Args:
+                agentIndex (int): The index of the agent (0 for Pacman, >= 1 for ghosts).
+                depth (int): The current depth of the search tree.
+                gameState (GameState): The current state of the game.
+
+            Returns:
+                float: The evaluated score of the game state.
+            """
+            # Base case: If max depth is reached, or if the game is over, return the evaluation
             if depth == self.depth or gameState.isWin() or gameState.isLose():
                 return self.evaluationFunction(gameState)
 
-            # Get legal actions and sort them based on heuristic evaluation
             legalActions = gameState.getLegalActions(agentIndex)
-            sortedActions = sorted(legalActions, key=lambda action: self.evaluationFunction(gameState.generateSuccessor(agentIndex, action)), reverse=(agentIndex == 0))
+            # Sort actions by heuristic evaluation to optimize search
+            sortedActions = sorted(legalActions, 
+                                   key=lambda action: self.evaluationFunction(gameState.generateSuccessor(agentIndex, action)), 
+                                   reverse=(agentIndex == 0))  # Sort in descending order for Pacman
 
             if agentIndex == 0:  # Pacman's turn (maximizing player)
                 bestScore = float('-inf')
@@ -236,17 +287,19 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 return bestScore
             else:  # Ghosts' turn (minimizing player)
                 bestScore = float('inf')
-                nextAgent = (agentIndex + 1) % gameState.getNumAgents()
-                nextDepth = depth + 1 if nextAgent == 0 else depth
+                nextAgent = (agentIndex + 1) % gameState.getNumAgents()  # Move to the next agent
+                nextDepth = depth + 1 if nextAgent == 0 else depth  # Increase depth only after all agents move
                 for action in sortedActions:
                     successorState = gameState.generateSuccessor(agentIndex, action)
                     score = minimax(nextAgent, nextDepth, successorState)
                     bestScore = min(bestScore, score)
                 return bestScore
-
-        # Get the best action for Pacman
+            
         legalMoves = gameState.getLegalActions(0)
+        # Evaluate each move using the Minimax algorithm
         scores = [minimax(1, 0, gameState.generateSuccessor(0, action)) for action in legalMoves]
+
+        # Choose the action with the best score
         bestScore = max(scores)
         bestIndices = [index for index in range(len(scores)) if scores[index] == bestScore]
         chosenIndex = random.choice(bestIndices)
@@ -255,48 +308,79 @@ class MinimaxAgent(MultiAgentSearchAgent):
 
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
-    """
-      Here is the place to define your Alpha-Beta Pruning Algorithm
-    """
 
     def getAction(self, gameState):
         """
-          Returns the minimax action using self.depth and self.evaluationFunction
+        Determines the best action for Pacman using the Alpha-Beta pruning algorithm.
+
+        Args:
+            gameState: The current state of the game.
+        
+        Returns:
+            The action that maximizes Pacman's chance of winning while avoiding ghosts,
+            evaluated up to the depth specified by self.depth.
         """
+
         def alphaBeta(agentIndex, depth, gameState, alpha, beta):
+            """
+            Performs the Alpha-Beta pruning algorithm recursively.
+
+            Args:
+                agentIndex: The index of the current agent (0 for Pacman, 1 and onwards for ghosts).
+                depth: The current depth in the game tree.
+                gameState: The current state of the game.
+                alpha: The best value that the maximizing player (Pacman) can guarantee so far.
+                beta: The best value that the minimizing player (ghosts) can guarantee so far.
+
+            Returns:
+                The score of the game state evaluated using the self.evaluationFunction.
+            """
+            
+            # Terminal state check: stop if depth limit is reached or game is won/lost
             if depth == self.depth or gameState.isWin() or gameState.isLose():
                 return self.evaluationFunction(gameState)
             
-            if agentIndex == 0:  # Pacman (maximizing player)
+            if agentIndex == 0:  # Pacman's turn (maximizing player)
                 value = float('-inf')
+                # Iterate over all legal actions available to Pacman
                 for action in gameState.getLegalActions(agentIndex):
                     successorState = gameState.generateSuccessor(agentIndex, action)
+                    # Call alphaBeta for the next agent (ghosts)
                     value = max(value, alphaBeta(1, depth, successorState, alpha, beta))
+                    # Pruning: If value exceeds beta, stop searching this branch
                     if value > beta:
                         return value
+                    # Update alpha, the best value found for Pacman
                     alpha = max(alpha, value)
                 return value
-            else:  # Ghosts (minimizing player)
+            else:  # Ghosts' turn (minimizing player)
                 value = float('inf')
+                # Determine the next agent and update depth if it's Pacman's turn
                 nextAgent = (agentIndex + 1) % gameState.getNumAgents()
                 nextDepth = depth + 1 if nextAgent == 0 else depth
+                # Iterate over all legal actions available to the ghosts
                 for action in gameState.getLegalActions(agentIndex):
                     successorState = gameState.generateSuccessor(agentIndex, action)
+                    # Call alphaBeta for the next agent (Pacman or another ghost)
                     value = min(value, alphaBeta(nextAgent, nextDepth, successorState, alpha, beta))
+                    # Pruning: If value is less than alpha, stop searching this branch
                     if value < alpha:
                         return value
+                    # Update beta, the best value found for the ghosts
                     beta = min(beta, value)
                 return value
 
-        # Get the best action for Pacman
         legalMoves = gameState.getLegalActions(0)
-        alpha = float('-inf')
-        beta = float('inf')
-        bestAction = None
-        bestScore = float('-inf')
+        alpha = float('-inf')  
+        beta = float('inf')    
+        bestAction = None     
+        bestScore = float('-inf')  
+
+        # Evaluate each legal move for Pacman
         for action in legalMoves:
             successorState = gameState.generateSuccessor(0, action)
             value = alphaBeta(1, 0, successorState, alpha, beta)
+            # Update the best action if this value is higher than the current best score
             if value > bestScore:
                 bestScore = value
                 bestAction = action
