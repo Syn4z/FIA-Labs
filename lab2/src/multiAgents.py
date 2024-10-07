@@ -147,66 +147,69 @@ def scoreEvaluationFunction(currentGameState):
 
     return score
 
-def improvedScoreEvaluationFunction(currentGameState):
+def improvedEvaluationFunction(currentGameState):
     """
-    Evaluation function that incorporates multiple features of the game state to create
-    a more nuanced score for Pacman's decisions.
+      Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
+      evaluation function (question 5).
+
+      DESCRIPTION: This evaluation function considers the following factors:
+      - Distance to the nearest food
+      - Distance to the nearest capsule
+      - Distance to the nearest ghost (penalizes being close to active ghosts)
+      - Distance to the nearest scared ghost (prioritizes eating scared ghosts)
+      - Number of remaining food pellets
+      - Number of remaining capsules
+      - Maze complexity (number of walls around Pacman)
     """
-    
-    # Get basic game state information
     pacmanPos = currentGameState.getPacmanPosition()
     ghostList = currentGameState.getGhostStates()
-    foods = currentGameState.getFood().asList()  # Food positions
-    capsules = currentGameState.getCapsules()  # Capsule positions
-    walls = currentGameState.getWalls()
+    foods = currentGameState.getFood()
+    capsules = currentGameState.getCapsules()
 
-    # Check for win or lose conditions
     if currentGameState.isWin():
         return float("inf")
     if currentGameState.isLose():
         return float("-inf")
 
-    # Initialize key distances and factors
-    minFoodDist = min(util.manhattanDistance(pacmanPos, food) for food in foods) if foods else 0
-    minCapsuleDist = min(util.manhattanDistance(pacmanPos, capsule) for capsule in capsules) if capsules else float("inf")
-    
-    minGhostDist = float("inf")
-    minScaredGhostDist = float("inf")
-    ghostPenalty = 0
-    scaredGhostBonus = 0
+    # Distance to the nearest food
+    foodDistList = [util.manhattanDistance(pacmanPos, food) for food in foods.asList()]
+    minFoodDist = min(foodDistList) if foodDistList else 0
 
-    # Calculate ghost and scared ghost distances
+    # Distance to the nearest capsule
+    capsuleDistList = [util.manhattanDistance(pacmanPos, cap) for cap in capsules]
+    minCapsuleDist = min(capsuleDistList) if capsuleDistList else 0
+
+    # Distance to the nearest ghost and scared ghost
+    ghostDistList = []
+    scaredGhostDistList = []
     for ghost in ghostList:
-        ghostDist = util.manhattanDistance(pacmanPos, ghost.getPosition())
-        if ghost.scaredTimer > 0:
-            minScaredGhostDist = min(minScaredGhostDist, ghostDist)
+        if ghost.scaredTimer == 0:
+            ghostDistList.append(util.manhattanDistance(pacmanPos, ghost.getPosition()))
         else:
-            minGhostDist = min(minGhostDist, ghostDist)
+            scaredGhostDistList.append(util.manhattanDistance(pacmanPos, ghost.getPosition()))
 
-    # Add weighted ghost penalty or bonus depending on proximity
-    if minGhostDist != float("inf"):
-        ghostPenalty = -200 / (minGhostDist + 1)  # Higher penalty the closer non-scared ghosts are
-    if minScaredGhostDist != float("inf"):
-        scaredGhostBonus = 300 / (minScaredGhostDist + 1)  # Encourage Pacman to chase scared ghosts
+    minGhostDist = min(ghostDistList) if ghostDistList else float("inf")
+    minScaredGhostDist = min(scaredGhostDistList) if scaredGhostDistList else 0
 
-    # Additional characteristics
-    remainingFood = len(foods)  # Encourage clearing food
-    remainingCapsules = len(capsules)  # Encourage collecting capsules
-    wallProximityPenalty = -20 if walls[pacmanPos[0]][pacmanPos[1]] else 0  # Discourage staying near walls/corners
+    # Number of remaining food pellets and capsules
+    remainingFood = len(foods.asList())
+    remainingCapsules = len(capsules)
 
-    # Combine multiple factors with varying weights
-    score = (currentGameState.getScore()  # Base game score
-             + (10 / (minFoodDist + 1))  # Encourage food collection
-             + (5 / (minCapsuleDist + 1))  # Encourage capsule collection
-             + scaredGhostBonus  # Reward for chasing scared ghosts
-             + ghostPenalty  # Penalty for approaching non-scared ghosts
-             - (3 * remainingFood)  # Penalize more for higher food count (clear food faster)
-             - (100 * remainingCapsules)  # Heavily encourage capsule collection
-             + wallProximityPenalty)  # Penalize staying near walls/corners
-    
+    # Maze complexity (number of walls around Pacman)
+    walls = currentGameState.getWalls()
+    wallCount = sum([walls[x][y] for x in range(pacmanPos[0] - 1, pacmanPos[0] + 2) for y in range(pacmanPos[1] - 1, pacmanPos[1] + 2)])
+
+    # Calculate the score
+    score = currentGameState.getScore()
+    score += -1.5 * minFoodDist
+    score += -2 * minCapsuleDist
+    score += -2 * (1.0 / minGhostDist) if minGhostDist != float("inf") else 0
+    score += 2 * (1.0 / minScaredGhostDist) if minScaredGhostDist != 0 else 0
+    score += -4 * remainingFood
+    score += -20 * remainingCapsules
+    score += -0.5 * wallCount
+
     return score
-
-
 
 class MultiAgentSearchAgent(Agent):
     """
@@ -223,7 +226,7 @@ class MultiAgentSearchAgent(Agent):
       is another abstract class.
     """
 
-    def __init__(self, evalFn='improvedScoreEvaluationFunction', depth='2'):
+    def __init__(self, evalFn='improvedEvaluationFunction', depth='2'):
         self.index = 0 # Pacman is always agent index 0
         self.evaluationFunction = util.lookup(evalFn, globals())
         self.depth = int(depth)
@@ -327,7 +330,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         return bestAction
 
 
-class AStarMinimaxAgent(MultiAgentSearchAgent):
+class AStarMinimaxAgent(MinimaxAgent):
     """
       An agent that uses A* search combined with Minimax algorithm to find the best action.
     """
@@ -367,51 +370,31 @@ class AStarMinimaxAgent(MultiAgentSearchAgent):
                 if time.time() - startTime > 1:  # Timeout after 1 second to avoid infinite loop
                     break
                 currentState, actions = pq.pop()
-
                 if currentState.getPacmanPosition() in foodList:
                     return actions
-
                 if currentState not in visited:
                     visited.add(currentState)
-
                     for action in currentState.getLegalActions(0):
                         successor = currentState.generatePacmanSuccessor(action)
                         if successor is not None:
                             newActions = actions + [action]
                             cost = len(newActions) + heuristic(successor, foodList[0], capsules, ghostStates)
                             pq.push((successor, newActions), cost)
-
             return []
 
-        def minimax(state, depth, agentIndex):
-            if depth == self.depth * state.getNumAgents() or state.isWin() or state.isLose():
-                return self.evaluationFunction(state)
-
-            if agentIndex == 0:  # Pacman's turn (maximizing player)
-                return max(minimax(state.generateSuccessor(agentIndex, action), depth + 1, 1)
-                           for action in state.getLegalActions(agentIndex))
-            else:  # Ghosts' turn (minimizing player)
-                nextAgent = (agentIndex + 1) % state.getNumAgents()
-                return min(minimax(state.generateSuccessor(agentIndex, action), depth + 1, nextAgent)
-                           for action in state.getLegalActions(agentIndex))
-
+        # Perform A* search to find the best path to the food
         actions = aStarSearch(gameState)
         if actions:
             return actions[0]
 
-        legalMoves = gameState.getLegalActions(0)
-        scores = [minimax(gameState.generateSuccessor(0, action), 0, 1) for action in legalMoves]
-        bestScore = max(scores)
-        bestActions = [action for action, score in zip(legalMoves, scores) if score == bestScore]
-
-        return random.choice(bestActions)
+        # If no path found by A*, fallback to Minimax
+        return super().getAction(gameState)
 
 
-class AStarAlphaBetaAgent(MultiAgentSearchAgent):
+class AStarAlphaBetaAgent(AlphaBetaAgent):
     """
       An agent that uses A* search combined with Alpha-Beta Pruning algorithm to find the best action.
     """
-
     def getAction(self, gameState):
         """
           Returns the best action using A* search algorithm combined with Alpha-Beta Pruning algorithm.
@@ -445,56 +428,26 @@ class AStarAlphaBetaAgent(MultiAgentSearchAgent):
             while not pq.isEmpty():
                 if time.time() - startTime > 1:  # Timeout after 1 second to avoid infinite loop
                     break
-
                 currentState, actions = pq.pop()
-
                 if currentState.getPacmanPosition() in foodList:
                     return actions
-
                 if currentState not in visited:
                     visited.add(currentState)
-
                     for action in currentState.getLegalActions(0):
                         successor = currentState.generatePacmanSuccessor(action)
                         if successor is not None:
                             newActions = actions + [action]
                             cost = len(newActions) + heuristic(successor, foodList[0], capsules, ghostStates)
                             pq.push((successor, newActions), cost)
-
             return []
 
-        def alphaBeta(state, depth, agentIndex, alpha, beta):
-            if depth == self.depth * state.getNumAgents() or state.isWin() or state.isLose():
-                return self.evaluationFunction(state)
-
-            if agentIndex == 0:  # Pacman's turn (maximizing player)
-                value = float('-inf')
-                for action in state.getLegalActions(agentIndex):
-                    value = max(value, alphaBeta(state.generateSuccessor(agentIndex, action), depth + 1, 1, alpha, beta))
-                    if value > beta:
-                        return value
-                    alpha = max(alpha, value)
-                return value
-            else:  # Ghosts' turn (minimizing player)
-                value = float('inf')
-                nextAgent = (agentIndex + 1) % state.getNumAgents()
-                for action in state.getLegalActions(agentIndex):
-                    value = min(value, alphaBeta(state.generateSuccessor(agentIndex, action), depth + 1, nextAgent, alpha, beta))
-                    if value < alpha:
-                        return value
-                    beta = min(beta, value)
-                return value
-
+        # Perform A* search to find the best path to the food
         actions = aStarSearch(gameState)
         if actions:
             return actions[0]
 
-        legalMoves = gameState.getLegalActions(0)
-        scores = [alphaBeta(gameState.generateSuccessor(0, action), 0, 1, float('-inf'), float('inf')) for action in legalMoves]
-        bestScore = max(scores)
-        bestActions = [action for action, score in zip(legalMoves, scores) if score == bestScore]
-
-        return random.choice(bestActions)
+        # If no path found by A*, fallback to Alpha-Beta Pruning
+        return super().getAction(gameState)
 
 
 def betterEvaluationFunction(currentGameState):
