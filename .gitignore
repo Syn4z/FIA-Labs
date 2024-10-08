@@ -1,4 +1,3 @@
 .vscode/
-*/src/__pycache__/*
-*/src/venv/*
-# *example*.py
+**/venv/*
+**/__pycache__/
