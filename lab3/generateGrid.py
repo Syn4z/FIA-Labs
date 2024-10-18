@@ -1,5 +1,6 @@
 import random
 import math
+import argparse
 from utils import getNextGridFilename
 
 class Sudoku:
@@ -56,7 +57,6 @@ class Sudoku:
                 return False
         return True
     
-   
     def fillRemaining(self, i, j):
         # Check if it reached the end of the matrix
         if i == self.N - 1 and j == self.N:
@@ -90,12 +90,6 @@ class Sudoku:
                 self.mat[i][j] = 0
         return
 
-    def printSudoku(self):
-        for i in range(self.N):
-            for j in range(self.N):
-                print(self.mat[i][j], end=" ")
-            print()
-
     def saveToFile(self, filename):
         with open(filename, 'w') as file:
             for i in range(self.N):
@@ -107,8 +101,11 @@ class Sudoku:
                 file.write('\n')        
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Generate a Sudoku grid.")
+    parser.add_argument('-k', type=int, default=50, help='Number of cells to remove (default: 50)')
+    args = parser.parse_args()
     N = 9
-    K = 40
+    K = args.k
     sudoku = Sudoku(N, K)
     sudoku.fillValues()
     filename = getNextGridFilename()

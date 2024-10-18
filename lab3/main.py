@@ -39,5 +39,5 @@ if __name__ == "__main__":
     domainsTime = resolveSudokuTeq(sudokuDomains, grids)
     # forwardCheckingTime = resolveSudokuTeq(sudokuForwardChecking, grids)
     print("Solutions are saved in 'solutions' folder")
-    print(f"Backtracking time: {backtrackTime} in seconds\nDomains time: {domainsTime} in seconds")  
+    print(f"Backtracking times: {backtrackTime} in seconds\nDomains times: {domainsTime} in seconds")  
     # print(f"Forward checking time: {forwardCheckingTime} in seconds")  
