@@ -1,36 +1,43 @@
-from utils import *
+from sudoku import *
+from generateGrid import *
 import time
 import glob
+import os
 
 
 if __name__ == "__main__":
-    grids = glob.glob('grid*.txt')
-    backtrackTime = []
-    domainsTime = []
-    for grid in grids:
-        gridName = grid.split('/')[-1]
-        gridString = readGridFromFile(grid)
-        grid = parseGrid(gridString)
+    grids = glob.glob('grids/grid*.txt')
+    def resolveSudokuTeq(teq, grids):
+        teqTime = []
+        for grid in grids:
+            gridName = grid.split('/')[-1]
+            gridString = readGridFromFile(grid)
+            grid = parseGrid(gridString)
 
-        start_time = time.time()
-        if solveSudokuBasic(grid, 0, 0):
-            print(f"\nSolution for '{gridName}' using backtracking: ")
-            printing(grid)
-            end_time = time.time()
-            backtrackTime.append(end_time - start_time)
-        else:
-            end_time = time.time()
-            print(f"No solution exists for '{gridName}'")
-            
-        grid = parseGrid(gridString)
-        start_time = time.time()
-        if solveSudoku(grid):
-            print(f"\nSolution for '{gridName}' using domains: ")
-            printing(grid)
-            end_time = time.time()
-            domainsTime.append(end_time - start_time)
-        else:
-            end_time = time.time()
-            print(f"No solution exists for '{gridName}'")
+            if grid is None:
+                print(f"Skipping '{gridName}' due to parsing error")
+                teqTime.append(None)
+                continue
 
-    print(f"Backtracking time: {backtrackTime} s\nDomains time: {domainsTime} s")    
+            try:
+                start_time = time.time()
+                if teq(grid, 0, 0):
+                    end_time = time.time()
+                    teqTime.append(f"{end_time - start_time:.4f}")
+                    solution_filename = getSolutionFilename(gridName)
+                    saveSolutionToFile(grid, solution_filename)
+                else:
+                    end_time = time.time()
+                    print(f"'{gridName}' is not solvable using {teq.__name__}")
+                    teqTime.append(None)
+            except Exception as e:
+                print(f"Error solving '{gridName}': {e}")
+                teqTime.append(None)
+        return teqTime
+
+    backtrackTime = resolveSudokuTeq(sudokuBacktracking, grids)
+    domainsTime = resolveSudokuTeq(sudokuDomains, grids)
+    # forwardCheckingTime = resolveSudokuTeq(sudokuForwardChecking, grids)
+    print("Solutions are saved in 'solutions' folder")
+    print(f"Backtracking time: {backtrackTime} in seconds\nDomains time: {domainsTime} in seconds")  
+    # print(f"Forward checking time: {forwardCheckingTime} in seconds")  
