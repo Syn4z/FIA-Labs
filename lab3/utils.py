@@ -1,8 +1,21 @@
 import glob
 import re
+import copy
+from tabulate import tabulate
 
 
 N = 9
+
+def create_table(data, algorithms, grid_names):
+    headers = ['Algorithm'] + grid_names
+    table_data = []
+    for algorithm in algorithms:
+        row = [algorithm.__name__]
+        for grid_name in grid_names:
+            row.append(data[algorithm.__name__].get(grid_name, 'N/A'))
+        table_data.append(row)
+    table = tabulate(table_data, headers, tablefmt='grid')
+    return table
 
 def getNextGridFilename():
     files = glob.glob('grids/grid*.txt')
@@ -73,23 +86,26 @@ def backtrack(grid, domains, row, col):
             grid[row][col] = 0
     return False
 
-def backtrackForward(grid, domains, row, col):
+def forwardCheckSolver(grid, domains, row, col):
     if row == N - 1 and col == N:
         return True
     if col == N:
         row += 1
         col = 0
     if grid[row][col] > 0:
-        return backtrackForward(grid, domains, row, col + 1)
+        return forwardCheckSolver(grid, domains, row, col + 1)
+    
     for num in list(domains[row][col]):
         if isValid(grid, row, col, num):
             grid[row][col] = num
-            original_domains = copyDomains(domains)
-            if forwardCheck(domains, row, col, num):
-                if backtrackForward(grid, domains, row, col + 1):
-                    return True
+            affected_domains = forwardCheck(domains, row, col, num)
+            if affected_domains is not None:
+                # Check if all domains are non-empty before making the recursive call
+                if all(domains[i][j] for i in range(N) for j in range(N) if grid[i][j] == 0):
+                    if forwardCheckSolver(grid, domains, row, col + 1):
+                        return True
+                revertDomains(domains, affected_domains)
             grid[row][col] = 0
-            domains = original_domains
     return False
 
 def initializeDomains(grid):
@@ -100,7 +116,7 @@ def initializeDomains(grid):
                 domains[i][j] = {grid[i][j]}
     return domains
 
-def propagateConstraints(grid, domains):
+def propagateConstraints(domains):
     changed = True
     while changed:
         changed = False
@@ -128,19 +144,22 @@ def propagateConstraints(grid, domains):
     return domains
 
 def forwardCheck(domains, row, col, value):
-    # Update the domains for the row
+    affected_domains = []
+
     for i in range(N):
         if i != col and value in domains[row][i]:
             domains[row][i].remove(value)
+            affected_domains.append((row, i, value))
             if not domains[row][i]:
-                return False
-
-    # Update the domains for the column
+                revertDomains(domains, affected_domains)
+                return None
     for i in range(N):
         if i != row and value in domains[i][col]:
             domains[i][col].remove(value)
+            affected_domains.append((i, col, value))
             if not domains[i][col]:
-                return False
+                revertDomains(domains, affected_domains)
+                return None
 
     # Update the domains for the 3x3 subgrid
     startRow, startCol = 3 * (row // 3), 3 * (col // 3)
@@ -148,10 +167,42 @@ def forwardCheck(domains, row, col, value):
         for j in range(startCol, startCol + 3):
             if (i != row or j != col) and value in domains[i][j]:
                 domains[i][j].remove(value)
+                affected_domains.append((i, j, value))
                 if not domains[i][j]:
-                    return False
+                    revertDomains(domains, affected_domains)
+                    return None
 
-    return True
+    return affected_domains
+
+def revertDomains(domains, affected_domains):
+    for row, col, value in affected_domains:
+        domains[row][col].add(value)
 
 def copyDomains(domains):
-    return [row[:] for row in domains]
+    return copy.deepcopy(domains)
+
+def heuristicBacktrack(grid, domains):
+    cell = selectUnassignedVariable(domains)
+    if cell is None:
+        return True
+    row, col = cell
+    for num in list(domains[row][col]):
+        if isValid(grid, row, col, num):
+            grid[row][col] = num
+            original_domains = copyDomains(domains)
+            if forwardCheck(domains, row, col, num):
+                if heuristicBacktrack(grid, domains):
+                    return True
+            grid[row][col] = 0
+            domains = original_domains
+    return False
+
+def selectUnassignedVariable(domains):
+    min_domain_size = float('inf')
+    selected_cell = None
+    for i in range(N):
+        for j in range(N):
+            if len(domains[i][j]) > 1 and len(domains[i][j]) < min_domain_size:
+                min_domain_size = len(domains[i][j])
+                selected_cell = (i, j)
+    return selected_cell

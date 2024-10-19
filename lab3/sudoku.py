@@ -17,12 +17,17 @@ def sudokuBacktracking(grid, row, col):
         grid[row][col] = 0
     return False
 
+def sudokuBacktrackingDomains(grid, row=0, col=0):
+    domains = initializeDomains(grid)
+    domains = propagateConstraints(domains)
+    return backtrack(grid, domains, row, col)  
+
 def sudokuForwardChecking(grid, row, col):
     domains = initializeDomains(grid)
-    domains = propagateConstraints(grid, domains)
-    return backtrackForward(grid, domains, row, col) 
+    domains = propagateConstraints(domains)
+    return forwardCheckSolver(grid, domains, row, col) 
 
-def sudokuDomains(grid, row=0, col=0):
+def sudokuHeuristic(grid):
     domains = initializeDomains(grid)
     domains = propagateConstraints(grid, domains)
-    return backtrack(grid, domains, row, col)  
+    return heuristicBacktrack(grid, domains)
