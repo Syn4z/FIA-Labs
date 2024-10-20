@@ -1,33 +1,26 @@
 from utils import *
 
 
-def sudokuBacktracking(grid, row, col):
-    if (row == N - 1 and col == N):
-        return True
-    if col == N:
-        row += 1
-        col = 0
-    if grid[row][col] > 0:
-        return sudokuBacktracking(grid, row, col + 1)
-    for num in range(1, N + 1, 1):
-        if isValid(grid, row, col, num):
-            grid[row][col] = num
-            if sudokuBacktracking(grid, row, col + 1):
-                return True
-        grid[row][col] = 0
-    return False
-
-def sudokuBacktrackingDomains(grid, row=0, col=0):
+def sudokuBacktracking(grid, row=0, col=0, steps=[0]):
     domains = initializeDomains(grid)
-    domains = propagateConstraints(domains)
-    return backtrack(grid, domains, row, col)  
+    return backtrack(grid, domains, row, col, steps)
 
-def sudokuForwardChecking(grid, row, col):
+def sudokuBacktrackingDomains(grid, row=0, col=0, steps=[0]):
     domains = initializeDomains(grid)
-    domains = propagateConstraints(domains)
-    return forwardCheckSolver(grid, domains, row, col) 
+    domains = constraintPropagation(domains)
+    return backtrack(grid, domains, row, col, steps)  
 
-def sudokuHeuristic(grid):
+def sudokuForwardChecking(grid, row=0, col=0, steps=[0]):
     domains = initializeDomains(grid)
-    domains = propagateConstraints(grid, domains)
-    return heuristicBacktrack(grid, domains)
+    domains = constraintPropagation(domains)
+    return forwardCheckSolver(grid, domains, row, col, steps) 
+
+def sudokuHeuristic(grid, row=0, col=0, steps=[0]):
+    domains = initializeDomains(grid)
+    domains = propagateConstraintsHeuristics(domains)
+    return forwardCheckSolver(grid, domains, row, col, steps) 
+
+def sudokuAc3(grid, row=0, col=0, steps=[0]):
+    domains = initializeDomains(grid)
+    domains = constraintPropagationAc3(domains)
+    return forwardCheckSolver(grid, domains, row, col, steps)
