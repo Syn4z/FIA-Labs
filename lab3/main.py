@@ -23,7 +23,7 @@ def resolveSudokuTeq(teq, grids):
             solved, steps = teq(grid, 0, 0)
             end_time = time.time()
             if solved:
-                teqTime.append(f"{end_time - start_time:.4f}")
+                teqTime.append(f"{end_time - start_time:.3f}")
                 teqSteps.append(steps)
                 solution_filename = getSolutionFilename(gridName)
                 saveSolutionToFile(grid, solution_filename)
@@ -36,6 +36,26 @@ def resolveSudokuTeq(teq, grids):
             teqTime.append(None)
             teqSteps.append(None)
     return teqTime, teqSteps
+
+def wrap_text(text, length):
+    words = text.split()
+    lines = []
+    current_line = []
+    current_length = 0
+
+    for word in words:
+        if current_length + len(word) + len(current_line) > length:
+            lines.append(' '.join(current_line))
+            current_line = [word]
+            current_length = len(word)
+        else:
+            current_line.append(word)
+            current_length += len(word)
+
+    if current_line:
+        lines.append(' '.join(current_line))
+
+    return '\n'.join(lines)
 
 if __name__ == "__main__":
     grids = glob.glob('grids/grid*.txt')
@@ -53,8 +73,9 @@ if __name__ == "__main__":
         'Heuristic': (heuristicBacktrackTime, heuristicBacktrackSteps),
         'Arc Consistency-3': (ac3Time, ac3Steps)
     }
+    wrapped_data = {wrap_text(algo, 20): (times, steps) for algo, (times, steps) in data.items()}
 
-    table = [[algo] + [f"{time} s\n({steps} steps)" if time is not None else "N/A" for time, steps in zip(times, steps)] for algo, (times, steps) in data.items()]
+    table = [[algo] + [f"{time} s\n({steps} steps)" if time is not None else "N/A" for time, steps in zip(times, steps)] for algo, (times, steps) in wrapped_data.items()]
     table.insert(0, ["Methods\\grids"] + grid_names)
     colalign = ["center"] * len(table[0])
     table_str = tabulate(table, headers="firstrow", tablefmt="grid", colalign=colalign)
