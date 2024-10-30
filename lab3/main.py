@@ -37,30 +37,11 @@ def resolveSudokuTeq(teq, grids):
             teqSteps.append(None)
     return teqTime, teqSteps
 
-def wrap_text(text, length):
-    words = text.split()
-    lines = []
-    current_line = []
-    current_length = 0
-
-    for word in words:
-        if current_length + len(word) + len(current_line) > length:
-            lines.append(' '.join(current_line))
-            current_line = [word]
-            current_length = len(word)
-        else:
-            current_line.append(word)
-            current_length += len(word)
-
-    if current_line:
-        lines.append(' '.join(current_line))
-
-    return '\n'.join(lines)
-
 if __name__ == "__main__":
     grids = glob.glob('grids/grid*.txt')
-    grid_names = [grid.split('\\')[-1] for grid in grids]
+    grid_names = [grid.split('/')[-1] for grid in grids]
     grid_names = [name.replace('.txt', '') for name in grid_names]
+    grid_names.sort(key=lambda x: int(x.split('grid')[-1]))
     backtrackTime, backtrackSteps = resolveSudokuTeq(sudokuBacktracking, grids)
     domainsTime, domainsSteps = resolveSudokuTeq(sudokuBacktrackingDomains, grids)
     forwardCheckingTime, forwardCheckingSteps = resolveSudokuTeq(sudokuForwardChecking, grids)

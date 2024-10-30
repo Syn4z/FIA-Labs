@@ -30,6 +30,26 @@ def create_table(data, algorithms, grid_names):
     table = tabulate(table_data, headers, tablefmt='grid')
     return table
 
+def wrap_text(text, length):
+    words = text.split()
+    lines = []
+    current_line = []
+    current_length = 0
+
+    for word in words:
+        if current_length + len(word) + len(current_line) > length:
+            lines.append(' '.join(current_line))
+            current_line = [word]
+            current_length = len(word)
+        else:
+            current_line.append(word)
+            current_length += len(word)
+
+    if current_line:
+        lines.append(' '.join(current_line))
+
+    return '\n'.join(lines)
+
 def getNextGridFilename():
     """
     Generate the filename for the next Sudoku grid to be saved,
