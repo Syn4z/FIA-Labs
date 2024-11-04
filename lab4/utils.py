@@ -44,14 +44,13 @@ def preprocessData(filename):
     return data
 
 def trainModels(data, results_dir, trainColumns, remove=False):
-    # Prepare the features and target variable
+    # Select the features and target variable
     X = data[trainColumns]
     y = data['TotalPayBenefits']
 
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Initialize models
     linear_model = LinearRegression()
     elastic_net_model = ElasticNet(alpha=0.5, l1_ratio=0.5, random_state=42)
     lars_model = Lars()
@@ -68,7 +67,7 @@ def trainModels(data, results_dir, trainColumns, remove=False):
 
     # Evaluate models
     metrics = {
-        "Model": ["Linear Regression", "Elastic Net", "Least-angle Regression (LARS)"],
+        "Model": ["Linear Regression", "Elastic Net Regularization", "Least-angle Regression (LARS)"],
         "Mean Squared Error": [
             mean_squared_error(y_test, y_pred_linear),
             mean_squared_error(y_test, y_pred_elastic),
@@ -93,10 +92,11 @@ def trainModels(data, results_dir, trainColumns, remove=False):
 
     models = {
         "Linear Regression": (y_pred_linear, 'blue'),
-        "Elastic Net": (y_pred_elastic, 'green'),
+        "Elastic Net Regularization": (y_pred_elastic, 'green'),
         "LARS": (y_pred_lars, 'purple')
     }
 
+    # Visualize the results
     for model_name, (predictions, color) in models.items():
         plt.figure(figsize=(10, 6))
         plt.scatter(y_test, predictions, label='Predicted', color=color, alpha=0.6)
@@ -133,20 +133,19 @@ def clusterAndVisualize(data, results_dir):
     colors = list(color_map.values())
 
     plt.figure(figsize=(10, 12))
-    # Subplot for original data
     plt.subplot(2, 1, 1)
     scatter = plt.scatter(data['TotalPay'], data['Benefits'], 
                           c=data['Cluster'].map(color_map), alpha=0.5)
-    plt.title('Original Data: TotalPay and Benefits Colored by Clusters')
-    plt.xlabel('TotalPay')
-    plt.ylabel('Benefits')
+    plt.title('K-means Clustering')
+    plt.xlabel('Benefits')
+    plt.ylabel('TotalPayBenefits')
     plt.grid()
     handles = [plt.Line2D([0], [0], marker='o', color='w', 
                            markerfacecolor=color, markersize=10) for color in colors]
     plt.legend(handles, [f'Cluster {i + 1}' for i in range(len(colors))], title='Clusters')
 
     # Subplot for PCA-transformed data
-    plt.subplot(2, 1, 2)  # 2 rows, 1 column, second subplot
+    plt.subplot(2, 1, 2)
     for cluster, color in color_map.items():
         plt.scatter(pca_features[data['Cluster'] == cluster, 0], 
                     pca_features[data['Cluster'] == cluster, 1], 
@@ -156,7 +155,7 @@ def clusterAndVisualize(data, results_dir):
     # Plotting the cluster centers
     centers = pca.transform(kmeans.cluster_centers_)
     plt.scatter(centers[:, 0], centers[:, 1], s=300, c='red', label='Centroids', marker='X')
-    plt.title('K-means Clustering of TotalPay and Benefits (PCA Projection)')
+    plt.title('K-means Clustering of TotalPayBenefits (PCA Projection)')
     plt.xlabel('PCA Component 1')
     plt.ylabel('PCA Component 2')
     plt.legend()
@@ -166,17 +165,14 @@ def clusterAndVisualize(data, results_dir):
     plt.close()
 
 def predictedClusters(data, results_dir, elastic_net_model):
-    # Select relevant features for clustering
     features = data[['TotalPay', 'Benefits']]
     # Scale the data
     scaler = StandardScaler()
     scaled_features = scaler.fit_transform(features)
-
     # Fit the K-means model
     kmeans = KMeans(n_clusters=3, random_state=42)
     kmeans.fit(scaled_features)
 
-    # Assign clusters to the original data
     data['Cluster'] = kmeans.labels_
     data['PredictedTotalPayBenefits'] = elastic_net_model.predict(data[['TotalPay', 'Benefits']])
 
@@ -184,7 +180,7 @@ def predictedClusters(data, results_dir, elastic_net_model):
     color_map = {0: 'blue', 1: 'green', 2: 'orange'}
     plt.figure(figsize=(10, 8))
     
-    # Plot each cluster with a loop
+    # Plot each cluster
     for cluster, color in color_map.items():
         plt.scatter(data[data['Cluster'] == cluster]['TotalPay'], 
                     data[data['Cluster'] == cluster]['PredictedTotalPayBenefits'], 
@@ -194,7 +190,7 @@ def predictedClusters(data, results_dir, elastic_net_model):
 
     max_value = max(data['TotalPayBenefits'].max(), data['PredictedTotalPayBenefits'].max())
     plt.plot([0, max_value], [0, max_value], color='red', linestyle='--', linewidth=2, label='Actual Values')
-    plt.title('Predicted vs Actual TotalPayBenefits by Clusters')
+    plt.title('Predicted (Elastic Net Regularization) vs Actual TotalPayBenefits by Clusters')
     plt.xlabel('TotalPayBenefits')
     plt.ylabel('Predicted TotalPayBenefits')
     plt.legend()

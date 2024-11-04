@@ -13,7 +13,7 @@ if __name__ == '__main__':
     data = preprocessData(data_file)
 
     # Exploratory Data Analysis (EDA)
-    statistics = data[['BasePay', 'TotalPay', 'TotalPayBenefits', 'Year']].describe()
+    statistics = data[['Benefits', 'TotalPay', 'TotalPayBenefits', 'Year']].describe()
     statistics_df = pd.DataFrame(statistics)
     statistics_str = tabulate(statistics_df, headers='keys', tablefmt='grid', stralign='center', numalign='center')
 
@@ -21,7 +21,7 @@ if __name__ == '__main__':
     with open(f"{results_dir}/statistics.txt", "w") as file:
         file.write(statistics_str)
 
-    # Distribution of BasePay and OvertimePay
+    # Distribution of BasePay
     plt.figure(figsize=(10, 6))
     sns.histplot(data['BasePay'].dropna(), kde=True, color='green', bins=30)
     plt.title("Distribution of BasePay")
@@ -51,5 +51,5 @@ if __name__ == '__main__':
     # Cluster and Visualize
     clusterAndVisualize(data, results_dir)
 
-    # Analyze and Visualize Clusters
+    # Analyze best model predictions with clusters
     predictedClusters(predictedData, results_dir, elasticNetModel)
