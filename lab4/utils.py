@@ -7,9 +7,25 @@ from sklearn.decomposition import PCA
 import pandas as pd
 import matplotlib.pyplot as plt
 from tabulate import tabulate
+from sklearn.experimental import enable_iterative_imputer
+from sklearn.impute import IterativeImputer
 
 
-def preprocessData(filename):
+def mice_imputation(data):
+    """
+    Perform MICE imputation on the given DataFrame to replace missing values.
+
+    Parameters:
+    data (pd.DataFrame): The input DataFrame with missing values.
+
+    Returns:
+    pd.DataFrame: The DataFrame with missing values imputed.
+    """
+    imputer = IterativeImputer(max_iter=10, random_state=0)
+    imputed_data = imputer.fit_transform(data)
+    return pd.DataFrame(imputed_data, columns=data.columns)
+
+def preprocessData(filename, results_dir):
     data = pd.read_csv(
         filename,
         dtype={
@@ -26,27 +42,46 @@ def preprocessData(filename):
             'Agency': str,
             'Status': str
         },
-        na_values=["Not Provided", "N/A", "", " "]
+        na_values=["Not Provided", "N/A", "", " "],
+        low_memory=False
     )
+    
     # Check for missing values
-    print("Missing values per column:\n", data.isnull().sum())
+    missing_values = data.isnull().sum()
+    with open(f"{results_dir}/missing_values.txt", "w") as file:
+        file.write("Missing values per column:\n")
+        file.write(missing_values.to_string())
+    
+    data = data.dropna(subset=['BasePay', 'OtherPay'])
 
-    # Fill missing values in Benefits and Status (or drop if not needed)
-    data['Benefits'] = data['Benefits'].fillna(0)
+    # MICE imputation for 'Benefits' column
+    MICE_IMPUTER = IterativeImputer(max_iter=10, random_state=42)
+    current_cols = data.columns.tolist()
+    benefitsIndex = current_cols.index('Benefits')
+    benefitsIndex = 1
+    imputed_benefits = None
+    for feat in ['Benefits']:
+        if feat in data.columns:
+            imputed_benefits = MICE_IMPUTER.fit_transform(data[['OtherPay', 'Benefits', 'Year']])
+            imputed_benefits = pd.DataFrame(imputed_benefits).round(2).values
+    
+    # Replace imputed benefits only if it is NaN
+    data['Benefits'] = data['Benefits'].fillna(pd.Series(imputed_benefits[:, benefitsIndex], index=data.index))
+    # Fill missing values in Status (or drop if not needed)
     data['Status'] = data['Status'].fillna("Unknown")
-
+    
     # Convert columns to appropriate data types
     pay_columns = ['BasePay', 'OvertimePay', 'OtherPay', 'Benefits', 'TotalPay', 'TotalPayBenefits']
     data[pay_columns] = data[pay_columns].apply(pd.to_numeric, errors='coerce')
-
+    
     # Remove duplicates based on Id
     data.drop_duplicates(subset="Id", inplace=True)
     return data
 
-def trainModels(data, results_dir, trainColumns, remove=False):
+def trainModels(data, results_dir, trainColumns, targetColumn, remove=False):
     # Select the features and target variable
     X = data[trainColumns]
-    y = data['TotalPayBenefits']
+    y = data[targetColumn]
 
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
@@ -101,9 +136,9 @@ def trainModels(data, results_dir, trainColumns, remove=False):
         plt.figure(figsize=(10, 6))
         plt.scatter(y_test, predictions, label='Predicted', color=color, alpha=0.6)
         plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red', lw=2, label='Actual')
-        plt.title(f'Actual vs Predicted TotalPayBenefits ({model_name})')
-        plt.xlabel("Actual TotalPayBenefits")
-        plt.ylabel("Predicted TotalPayBenefits")
+        plt.title(f'Actual vs Predicted TotalPay ({model_name})')
+        plt.xlabel("Actual TotalPay")
+        plt.ylabel("Predicted TotalPay")
         plt.legend()
         if remove:
             plt.savefig(f"{results_dir}/{model_name.lower().replace(' ', '_')}_remove.png")
@@ -115,7 +150,7 @@ def trainModels(data, results_dir, trainColumns, remove=False):
 
 def clusterAndVisualize(data, results_dir):
     # Select relevant features for clustering
-    features = data[['TotalPay', 'Benefits']]
+    features = data[['BasePay', 'OtherPay']]
     # Scale the data
     scaler = StandardScaler()
     scaled_features = scaler.fit_transform(features)
@@ -134,11 +169,11 @@ def clusterAndVisualize(data, results_dir):
 
     plt.figure(figsize=(10, 12))
     plt.subplot(2, 1, 1)
-    scatter = plt.scatter(data['TotalPay'], data['Benefits'], 
+    scatter = plt.scatter(data['BasePay'], data['OtherPay'], 
                           c=data['Cluster'].map(color_map), alpha=0.5)
     plt.title('K-means Clustering')
-    plt.xlabel('Benefits')
-    plt.ylabel('TotalPayBenefits')
+    plt.xlabel('OtherPay')
+    plt.ylabel('TotalPay')
     plt.grid()
     handles = [plt.Line2D([0], [0], marker='o', color='w', 
                            markerfacecolor=color, markersize=10) for color in colors]
@@ -155,7 +190,7 @@ def clusterAndVisualize(data, results_dir):
     # Plotting the cluster centers
     centers = pca.transform(kmeans.cluster_centers_)
     plt.scatter(centers[:, 0], centers[:, 1], s=300, c='red', label='Centroids', marker='X')
-    plt.title('K-means Clustering of TotalPayBenefits (PCA Projection)')
+    plt.title('K-means Clustering of TotalPay (PCA Projection)')
     plt.xlabel('PCA Component 1')
     plt.ylabel('PCA Component 2')
     plt.legend()
@@ -165,7 +200,7 @@ def clusterAndVisualize(data, results_dir):
     plt.close()
 
 def predictedClusters(data, results_dir, elastic_net_model):
-    features = data[['TotalPay', 'Benefits']]
+    features = data[['BasePay', 'OtherPay']]
     # Scale the data
     scaler = StandardScaler()
     scaled_features = scaler.fit_transform(features)
@@ -174,7 +209,7 @@ def predictedClusters(data, results_dir, elastic_net_model):
     kmeans.fit(scaled_features)
 
     data['Cluster'] = kmeans.labels_
-    data['PredictedTotalPayBenefits'] = elastic_net_model.predict(data[['TotalPay', 'Benefits']])
+    data['PredictedTotalPay'] = elastic_net_model.predict(data[['BasePay', 'OtherPay']])
 
     # Define colors for clusters
     color_map = {0: 'blue', 1: 'green', 2: 'orange'}
@@ -182,17 +217,17 @@ def predictedClusters(data, results_dir, elastic_net_model):
     
     # Plot each cluster
     for cluster, color in color_map.items():
-        plt.scatter(data[data['Cluster'] == cluster]['TotalPay'], 
-                    data[data['Cluster'] == cluster]['PredictedTotalPayBenefits'], 
+        plt.scatter(data[data['Cluster'] == cluster]['BasePay'], 
+                    data[data['Cluster'] == cluster]['PredictedTotalPay'], 
                     c=color, 
                     label=f'Cluster {cluster}', 
                     alpha=0.7)
 
-    max_value = max(data['TotalPayBenefits'].max(), data['PredictedTotalPayBenefits'].max())
+    max_value = max(data['TotalPay'].max(), data['PredictedTotalPay'].max())
     plt.plot([0, max_value], [0, max_value], color='red', linestyle='--', linewidth=2, label='Actual Values')
-    plt.title('Predicted (Elastic Net Regularization) vs Actual TotalPayBenefits by Clusters')
-    plt.xlabel('TotalPayBenefits')
-    plt.ylabel('Predicted TotalPayBenefits')
+    plt.title('Predicted (Elastic Net Regularization) vs Actual TotalPay by Clusters')
+    plt.xlabel('TotalPay')
+    plt.ylabel('Predicted TotalPay')
     plt.legend()
     plt.savefig(f"{results_dir}/predicted_vs_actual_clusters.png")
     plt.close()

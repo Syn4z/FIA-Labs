@@ -10,10 +10,22 @@ os.makedirs(results_dir, exist_ok=True)
 data_file = "data.csv"
 
 if __name__ == '__main__':
-    data = preprocessData(data_file)
+    data = preprocessData(data_file, results_dir)
+
+    float_columns = data.select_dtypes(include=['float64']).columns
+    float_data = data[float_columns]
+    # Generate correlation matrix
+    correlation_matrix = float_data.corr()
+
+    # Plot the correlation matrix
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(correlation_matrix, annot=True, fmt=".2f", cmap='coolwarm')
+    plt.title("Correlation Matrix")
+    plt.savefig(f"{results_dir}/correlation_matrix.png")
+    plt.close()
 
     # Exploratory Data Analysis (EDA)
-    statistics = data[['Benefits', 'TotalPay', 'TotalPayBenefits', 'Year']].describe()
+    statistics = data[['Benefits', 'TotalPay', 'BasePay', 'OtherPay']].describe()
     statistics_df = pd.DataFrame(statistics)
     statistics_str = tabulate(statistics_df, headers='keys', tablefmt='grid', stralign='center', numalign='center')
 
@@ -21,13 +33,23 @@ if __name__ == '__main__':
     with open(f"{results_dir}/statistics.txt", "w") as file:
         file.write(statistics_str)
 
-    # Distribution of BasePay
-    plt.figure(figsize=(10, 6))
+    # Subplot for BasePay
+    plt.figure(figsize=(20, 6))
+    plt.subplot(1, 2, 1)
     sns.histplot(data['BasePay'].dropna(), kde=True, color='green', bins=30)
     plt.title("Distribution of BasePay")
     plt.xlabel("BasePay")
     plt.ylabel("Frequency")
-    plt.savefig(f"{results_dir}/basepay_histogram.png")
+
+    # Subplot for Benefits
+    plt.subplot(1, 2, 2)
+    sns.histplot(data['Benefits'].dropna(), kde=True, color='blue', bins=30)
+    plt.title("Distribution of Benefits")
+    plt.xlabel("Benefits")
+    plt.ylabel("Frequency")
+
+    plt.tight_layout()
+    plt.savefig(f"{results_dir}/basepay_benefits_histogram.png", bbox_inches='tight')
     plt.close()
 
     # Top 10 Job Titles by Average TotalPayBenefits
@@ -41,12 +63,9 @@ if __name__ == '__main__':
     plt.close()
 
     # Train and Evaluate Models
-    trainColumns = ['TotalPay', 'Benefits']
-    predictedData, elasticNetModel = trainModels(data, results_dir, trainColumns)
-
-    # Train with one necessary column removed
-    trainColumns = ['TotalPay']
-    trainModels(data, results_dir, trainColumns, remove=True)
+    trainColumns = ['BasePay', 'OtherPay']
+    targetColumn = 'TotalPay'
+    predictedData, elasticNetModel = trainModels(data, results_dir, trainColumns, targetColumn)
 
     # Cluster and Visualize
     clusterAndVisualize(data, results_dir)
