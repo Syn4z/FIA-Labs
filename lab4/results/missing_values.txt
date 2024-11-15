@@ -1,0 +1,14 @@
+Missing values per column:
+Id                       0
+EmployeeName             2
+JobTitle                 0
+BasePay                609
+OvertimePay              4
+OtherPay                 4
+Benefits             36163
+TotalPay                 0
+TotalPayBenefits         0
+Year                     0
+Notes               148654
+Agency                   0
+Status              110535
