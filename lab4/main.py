@@ -65,10 +65,10 @@ if __name__ == '__main__':
     # Train and Evaluate Models
     trainColumns = ['BasePay', 'OtherPay']
     targetColumn = 'TotalPay'
-    predictedData, elasticNetModel = trainModels(data, results_dir, trainColumns, targetColumn)
+    predictedData, lars_model = trainModels(data, results_dir, trainColumns, targetColumn)
 
     # Cluster and Visualize
     clusterAndVisualize(data, results_dir)
 
     # Analyze best model predictions with clusters
-    predictedClusters(predictedData, results_dir, elasticNetModel)
+    predictedClusters(predictedData, results_dir, lars_model)

@@ -7,25 +7,21 @@ from sklearn.decomposition import PCA
 import pandas as pd
 import matplotlib.pyplot as plt
 from tabulate import tabulate
-from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
-
-def mice_imputation(data):
-    """
-    Perform MICE imputation on the given DataFrame to replace missing values.
-
-    Parameters:
-    data (pd.DataFrame): The input DataFrame with missing values.
-
-    Returns:
-    pd.DataFrame: The DataFrame with missing values imputed.
-    """
-    imputer = IterativeImputer(max_iter=10, random_state=0)
-    imputed_data = imputer.fit_transform(data)
-    return pd.DataFrame(imputed_data, columns=data.columns)
-
 def preprocessData(filename, results_dir):
+    """
+    Preprocesses the dataset by reading the CSV file, handling missing values,
+    imputing missing 'Benefits' values using MICE, and converting columns to 
+    appropriate data types. It also removes duplicates based on the 'Id' column.
+    
+    Parameters:
+    filename (str): Path to the CSV file.
+    results_dir (str): Directory where the missing values will be logged.
+    
+    Returns:
+    pd.DataFrame: Preprocessed data.
+    """
     data = pd.read_csv(
         filename,
         dtype={
@@ -79,6 +75,20 @@ def preprocessData(filename, results_dir):
     return data
 
 def trainModels(data, results_dir, trainColumns, targetColumn, remove=False):
+    """
+    Trains multiple machine learning models (Linear Regression, ElasticNet, and LARS) 
+    on the given dataset, evaluates their performance, and visualizes the results.
+
+    Parameters:
+    data (pd.DataFrame): The dataset containing the features and target variable.
+    results_dir (str): Directory where model metrics and plots will be saved.
+    trainColumns (list): List of column names to be used as features for training.
+    targetColumn (str): Name of the target variable.
+    remove (bool): Whether to save the results with or without removing duplicates.
+    
+    Returns:
+    tuple: Processed data and the trained LARS model.
+    """
     # Select the features and target variable
     X = data[trainColumns]
     y = data[targetColumn]
@@ -146,9 +156,20 @@ def trainModels(data, results_dir, trainColumns, targetColumn, remove=False):
             plt.savefig(f"{results_dir}/{model_name.lower().replace(' ', '_')}.png")
         plt.close()
 
-    return data, elastic_net_model
+    return data, lars_model
 
 def clusterAndVisualize(data, results_dir):
+    """
+    Performs K-means clustering on the data and visualizes the clusters using PCA 
+    for dimensionality reduction.
+
+    Parameters:
+    data (pd.DataFrame): The dataset containing the features to be clustered.
+    results_dir (str): Directory where the cluster visualization plot will be saved.
+    
+    Returns:
+    None
+    """
     # Select relevant features for clustering
     features = data[['BasePay', 'OtherPay']]
     # Scale the data
@@ -200,6 +221,18 @@ def clusterAndVisualize(data, results_dir):
     plt.close()
 
 def predictedClusters(data, results_dir, elastic_net_model):
+    """
+    Clusters the data using K-means and visualizes the predicted TotalPay (from an 
+    LARS model) versus the actual TotalPay for each cluster.
+
+    Parameters:
+    data (pd.DataFrame): The dataset containing 'BasePay', 'OtherPay', and 'TotalPay' columns.
+    results_dir (str): Directory where the visualization plot will be saved.
+    elastic_net_model (sklearn.linear_model.LARS): Trained LARS model used for prediction.
+    
+    Returns:
+    None
+    """
     features = data[['BasePay', 'OtherPay']]
     # Scale the data
     scaler = StandardScaler()
