@@ -31,9 +31,8 @@ if __name__ == '__main__':
     is_valid = valid_passport_image(image_path) 
 
     # Task 4 - Split data into training, validation and testing sets
-    # split_data(labels_file, split_data_dir) # Uncomment this line to split the data
+    split_data(labels_file, split_data_dir) # Uncomment this line to split the data
     total_files = os.listdir(image_dir)
-    # train_files = os.listdir(os.path.join(split_data_dir, 'train'))
     train_files = 0
     for root, _, files in os.walk(f'{split_data_dir}/train'):
         train_files += len(files)
@@ -49,9 +48,9 @@ if __name__ == '__main__':
     print(f"Test set: {test_files} images")
 
     # Task 5 - Train a CNN model to classify images
-    trained_model, training_history = train_cnn_model(split_data_dir, epochs=10, learning_rate=0.0001)
+    trained_model, training_history = train_cnn_model(split_data_dir, epochs=15, learning_rate=0.00001)
 
     # Task 6 - Evaluate the CNN vs OpenCV 
     correct_detected = evaluate_openCv(split_data_dir)
     accuracy = correct_detected / test_files * 100
-    print(f"\nAccuracy of OpenCV: {accuracy}%")
+    print(f"\nAccuracy of OpenCV: {accuracy:.2f}%")

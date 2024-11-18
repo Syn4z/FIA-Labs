@@ -150,31 +150,31 @@ def valid_passport_image(image_path):
     # Read the image from the specified path
     image = cv2.imread(image_path)
     if image is None:
-        print(f"Error: Unable to load image from {image_path}")
+        # print(f"Error: Unable to load image from {image_path}")
         return False
     # Check if the photo is in color
     if not is_color_image(image):
-        print("The photo is not in color.")
+        # print("The photo is not in color.")
         return False
     # Check if the photo is in portrait orientation or square
     if not is_portrait_or_square(image):
-        print("The photo is not in portrait orientation or square.")
+        # print("The photo is not in portrait orientation or square.")
         return False
     # Detect faces in the image
     faces = detect_face(image)
     if len(faces) != 1:
-        print("The photo does not contain exactly one person or none at all.")
+        # print("The photo does not contain exactly one person or none at all.")
         return False
     # Check if the eyes of the subject are at the same level
     if not are_eyes_at_same_level(image, faces[0]):
-        print("The eyes of the subject are not at the same level.")
+        # print("The eyes of the subject are not at the same level.")
         return False
     # Check if the head size is valid
     if not is_head_size_valid(image, faces[0]):
-        print("The head size is not valid.")
+        # print("The head size is not valid.")
         return False
 
-    print("\nThe photo is accepted for a passport.")
+    # print("\nThe photo is accepted for a passport.")
     return True
 
 def split_data(labels_file, output_folder):
@@ -187,9 +187,9 @@ def split_data(labels_file, output_folder):
         output_folder (str): Directory where the split data will be stored.
     """
     # Split ratios
-    train_ratio = 0.65
-    val_ratio = 0.20
-    test_ratio = 0.15
+    train_ratio = 0.80
+    val_ratio = 0.10
+    test_ratio = 0.10
 
     # Create directories for split data
     split_dirs = ['train', 'validation', 'test']
@@ -200,7 +200,6 @@ def split_data(labels_file, output_folder):
 
     # Load labels CSV
     labels = pd.read_csv(labels_file)
-
     # Split the data
     train, temp = train_test_split(labels, test_size=(1 - train_ratio), random_state=42, stratify=labels['label'])
     val, test = train_test_split(temp, test_size=(test_ratio / (val_ratio + test_ratio)), random_state=42, stratify=temp['label'])
@@ -240,49 +239,50 @@ def train_cnn_model(data_dir, image_size=(128, 128), batch_size=32, epochs=20, l
     test_dir = os.path.join(data_dir, "test")
 
     # Data generators for preprocessing
-    datagen_args = {'rescale': 1.0 / 255}
+    datagen_args = {
+        'rescale': 1.0 / 255,
+        'rotation_range': 20,         
+        'width_shift_range': 0.2,     
+        'height_shift_range': 0.2,    
+        'shear_range': 0.2,          
+        'zoom_range': 0.2,           
+        'horizontal_flip': True,     
+        'fill_mode': 'nearest'        
+    }
     train_gen = ImageDataGenerator(**datagen_args).flow_from_directory(
         train_dir, target_size=image_size, batch_size=batch_size, class_mode='binary'
     )
-    val_gen = ImageDataGenerator(**datagen_args).flow_from_directory(
+    val_gen = ImageDataGenerator(rescale=1.0 / 255).flow_from_directory(
         val_dir, target_size=image_size, batch_size=batch_size, class_mode='binary'
     )
-    test_gen = ImageDataGenerator(**datagen_args).flow_from_directory(
+    test_gen = ImageDataGenerator(rescale=1.0 / 255).flow_from_directory(
         test_dir, target_size=image_size, batch_size=batch_size, class_mode='binary'
     )
-
     # Define CNN model
     model = Sequential([
-        Conv2D(32, (3, 3), activation='relu', input_shape=(image_size[0], image_size[1], 3)),
+        Conv2D(16, (3, 3), activation='relu', input_shape=(128, 128, 3)),
         MaxPooling2D((2, 2)),
-        Conv2D(64, (3, 3), activation='relu'),
-        MaxPooling2D((2, 2)),
-        Conv2D(128, (3, 3), activation='relu'),
+        Conv2D(32, (3, 3), activation='relu'),
         MaxPooling2D((2, 2)),
         Flatten(),
-        Dense(128, activation='relu'),
+        Dense(64, activation='relu'),
         Dropout(0.5),
-        Dense(1, activation='sigmoid')  # Sigmoid activation for binary classification
+        Dense(1, activation='sigmoid')
     ])
-
     # Compile the model
     model.compile(optimizer=Adam(learning_rate=learning_rate),
                   loss='binary_crossentropy',
                   metrics=['accuracy'])
-
     # Train the model
     history = model.fit(
         train_gen,
         epochs=epochs,
         validation_data=val_gen
     )
-
     # Evaluate the model on the test set
     test_loss, test_accuracy = model.evaluate(test_gen)
-    test_accuracy *= 100
-    test_loss *= 100
-    print(f"Test Accuracy: {test_accuracy:.2f}%")
-    print(f"Test Loss: {test_loss:.2f}%")
+    print(f"Test Accuracy: {test_accuracy * 100:.2f}%")
+    print(f"Test Loss: {test_loss * 100:.2f}%")
 
     return model, history
 
