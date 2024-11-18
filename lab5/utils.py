@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.optimizers import Adam
@@ -180,7 +180,9 @@ def valid_passport_image(image_path):
 def split_data(labels_file, output_folder):
     """
     Splits data into train, validation, and test sets and organizes them into
-    class_0 and class_1 folders based on labels.
+    class_0 and class_1 folders based on labels. Ensures that the difference in the number of 
+    images between class_0 and class_1 is at most 3, and applies augmentation for training images.
+    Keeps both original and augmented images.
 
     Parameters:
         labels_file (str): Path to the CSV file containing file paths and labels.
@@ -200,25 +202,83 @@ def split_data(labels_file, output_folder):
 
     # Load labels CSV
     labels = pd.read_csv(labels_file)
-    # Split the data
-    train, temp = train_test_split(labels, test_size=(1 - train_ratio), random_state=42, stratify=labels['label'])
-    val, test = train_test_split(temp, test_size=(test_ratio / (val_ratio + test_ratio)), random_state=42, stratify=temp['label'])
+
+    # Split the data into train, validation, and test
+    train, temp = train_test_split(labels, test_size=(1 - train_ratio), random_state=46, stratify=labels['label'])
+    val, test = train_test_split(temp, test_size=(test_ratio / (val_ratio + test_ratio)), random_state=46, stratify=temp['label'])
+
+    # Helper function to balance classes with a max difference of 3 samples
+    def balance_classes(dataframe):
+        # Count instances of each class
+        class_0_count = len(dataframe[dataframe['label'] == 0])
+        class_1_count = len(dataframe[dataframe['label'] == 1])
+
+        # Calculate the difference in size
+        size_diff = abs(class_0_count - class_1_count)
+
+        # Downsample the larger class to minimize the difference to 3
+        if size_diff > 2:
+            if class_0_count > class_1_count:
+                class_0 = dataframe[dataframe['label'] == 0].sample(class_1_count + 2, random_state=46)
+                class_1 = dataframe[dataframe['label'] == 1]
+            else:
+                class_1 = dataframe[dataframe['label'] == 1].sample(class_0_count + 2, random_state=46)
+                class_0 = dataframe[dataframe['label'] == 0]
+        else:
+            class_0 = dataframe[dataframe['label'] == 0]
+            class_1 = dataframe[dataframe['label'] == 1]
+
+        # Concatenate the balanced classes
+        return pd.concat([class_0, class_1])
+
+    # Balance the classes for each split
+    train = balance_classes(train)
+    val = balance_classes(val)
+    test = balance_classes(test)
 
     # Helper function to copy files to the split directories
-    def copy_files(dataframe, split_name):
+    def copy_files(dataframe, split_name, augment=False):
         for _, row in dataframe.iterrows():
             src_path = row['new_path']
             class_folder = 'class_1' if row['label'] else 'class_0'
             dest_path = os.path.join(output_folder, split_name, class_folder, os.path.basename(src_path))
+            
+            # Copy the original image first
             copyfile(src_path, dest_path)
+            
+            # If augmenting, apply augmentation
+            if augment and split_name == 'train':
+                # Load and convert the image to numpy array
+                img = load_img(src_path)
+                x = img_to_array(img)
+                x = x.reshape((1,) + x.shape)  # Reshape for flow
+                
+                # Define augmentation transformations
+                datagen = ImageDataGenerator(
+                    rotation_range=5, 
+                    width_shift_range=0.1, 
+                    height_shift_range=0.1, 
+                    shear_range=0.1, 
+                    zoom_range=0.2, 
+                    horizontal_flip=False, 
+                    fill_mode='nearest'
+                )
+                
+                # Generate and save augmented images
+                i = 0
+                for _ in datagen.flow(x, batch_size=1, save_to_dir=os.path.dirname(dest_path), save_prefix='aug_', save_format='jpeg'):
+                    i += 1
+                    if i > 2:  # Generate a few augmentations per image
+                        break
 
-    # Copy images to respective folders
-    copy_files(train, 'train')
-    copy_files(val, 'validation')
-    copy_files(test, 'test')
-    print("Data has been successfully split and copied into class_0 and class_1 folders.")
+    # Copy original and augmented images to respective folders
+    copy_files(train, 'train', augment=True)
+    copy_files(val, 'validation', augment=False)
+    copy_files(test, 'test', augment=False)
 
-def train_cnn_model(data_dir, image_size=(128, 128), batch_size=32, epochs=20, learning_rate=0.001):
+    print("Data has been successfully split and copied into class_0 and class_1 folders with both original and augmented images.")
+
+def train_cnn_model(data_dir, image_size=(128, 128), batch_size=16, epochs=10, learning_rate=0.001):
     """
     Trains a CNN model for binary classification on passport photos.
 
