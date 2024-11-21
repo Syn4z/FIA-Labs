@@ -13,6 +13,19 @@ from shutil import copyfile
 
 
 def blur_image(image_path, save_path):
+    """
+    Blurs an image using a specified kernel size and saves the original and blurred images side by side.
+    Parameters:
+    image_path (str): The file path to the input image.
+    save_path (str): The directory where the output image (original vs blurred) will be saved.
+    Returns:
+    None
+    Notes:
+    - The function reads the image from the given path, applies a blur effect, and saves a comparison image.
+    - If the image cannot be loaded, an error message is printed and the function returns without processing.
+    - The output image is saved as 'originalVsBlurred.png' in the specified save directory.
+    """
+
     image = cv2.imread(image_path)
     if image is None:
         print(f"Error: Unable to load image from {image_path}")
@@ -38,6 +51,16 @@ def blur_image(image_path, save_path):
     plt.close()
 
 def sharpen_image(image_path, save_path):
+    """
+    Sharpens an image using a Laplacian filter and saves the comparison of the original and sharpened images.
+    Args:
+        image_path (str): The file path to the input image.
+        save_path (str): The directory path where the comparison image will be saved.
+    Returns:
+        None
+    If the image cannot be loaded, an error message is printed and the function returns without further processing.
+    """
+
     # Read the image from the specified
     image = cv2.imread(image_path)
     if image is None:
@@ -65,6 +88,16 @@ def sharpen_image(image_path, save_path):
     plt.close()
 
 def detect_face_image(image_path, save_path):
+    """
+    Detects faces in an image, draws rectangles around them, and saves the result.
+    Args:
+        image_path (str): The path to the input image file.
+        save_path (str): The directory where the output image with detected faces will be saved.
+    Returns:
+        tuple: A tuple (x, y, w, h) representing the coordinates and size of the first detected face.
+               Returns None if no faces are detected.
+    """
+
     # Read the image from the specified
     image = cv2.imread(image_path)
     if image is None:
@@ -147,6 +180,14 @@ def is_head_size_valid(image, face):
     return 20 <= face_area_percentage <= 50
 
 def valid_passport_image(image_path):
+    """
+    Validates if the given image meets the requirements for a passport photo using OpenCV.
+    Args:
+        image_path (str): The file path to the image to be validated.
+    Returns:
+        bool: True if the image meets all the passport photo requirements, False otherwise.
+    """
+
     # Read the image from the specified path
     image = cv2.imread(image_path)
     if image is None:
@@ -242,13 +283,11 @@ def split_data(labels_file, output_folder):
             src_path = row['new_path']
             class_folder = 'class_1' if row['label'] else 'class_0'
             dest_path = os.path.join(output_folder, split_name, class_folder, os.path.basename(src_path))
-            
             # Copy the original image first
             copyfile(src_path, dest_path)
             
             # If augmenting, apply augmentation
             if augment and split_name == 'train':
-                # Load and convert the image to numpy array
                 img = load_img(src_path)
                 x = img_to_array(img)
                 x = x.reshape((1,) + x.shape)  # Reshape for flow
@@ -264,7 +303,6 @@ def split_data(labels_file, output_folder):
                     fill_mode='nearest'
                 )
                 
-                # Generate and save augmented images
                 i = 0
                 for _ in datagen.flow(x, batch_size=1, save_to_dir=os.path.dirname(dest_path), save_prefix='aug_', save_format='jpeg'):
                     i += 1
