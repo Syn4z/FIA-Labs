@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Load model
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
-model = load_model('models/model_layers2_dropout05_augData.pth', device)
+model = load_model('models/model_layers2_dropout05_augData_NoName.pth', device)
 
 async def start(update: Update, context):
     """Send a welcome message when the /start command is issued."""

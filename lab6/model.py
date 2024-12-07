@@ -215,7 +215,7 @@ criterion = nn.CrossEntropyLoss(ignore_index=PAD_IDX)
 
 # # Save model
 # os.makedirs('models', exist_ok=True)
-# torch.save(model.state_dict(), 'models/model_layers2_dropout05_augData.pth')
+# torch.save(model.state_dict(), 'models/model_layers2_dropout05_augData_NoName.pth')
 
 def load_model(model_path, device='cpu'):
     model = Seq2Seq(

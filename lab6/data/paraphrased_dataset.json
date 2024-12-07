@@ -1,23 +1,23 @@
 {
     "questions": [
         {
-            "question": "tell me the language spoken in barcelona?",
+            "question": "tell me the language spoken?",
             "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
         },
         {
-            "question": "what's the main language spoken in barcelona?",
+            "question": "what's the main language spoken?",
             "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
         },
         {
-            "question": "tell me the primary language spoken in barcelona?",
+            "question": "tell me the primary language spoken?",
             "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
         },
         {
-            "question": "which is the primary language spoken in barcelona?",
+            "question": "which is the primary language spoken?",
             "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
         },
         {
-            "question": "what is the primary language spoken in barcelona?",
+            "question": "what is the primary language spoken?",
             "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
         },
         {
@@ -61,51 +61,51 @@
             "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
         },
         {
-            "question": "what is a currency used in barcelona?",
+            "question": "what is the currency used?",
             "answer": "in barcelona the official currency is the euro "
         },
         {
-            "question": "what is a currency used in barcelona?",
+            "question": "what is the currency used?",
             "answer": "the official currency in barcelona is euro"
         },
         {
-            "question": "what is a currency used in barcelona?",
+            "question": "what is the currency used?",
             "answer": "the official currency of barcelona is the euro "
         },
         {
-            "question": "what is a currency used in barcelona?",
+            "question": "what is the currency used?",
             "answer": "the official currency in barcelona is the euro "
         },
         {
-            "question": "which currency is used in barcelona?",
+            "question": "which currency is used?",
             "answer": "in barcelona the official currency is the euro "
         },
         {
-            "question": "which currency is used in barcelona?",
+            "question": "which currency is used?",
             "answer": "the official currency in barcelona is euro"
         },
         {
-            "question": "which currency is used in barcelona?",
+            "question": "which currency is used?",
             "answer": "the official currency of barcelona is the euro "
         },
         {
-            "question": "which currency is used in barcelona?",
+            "question": "which currency is used?",
             "answer": "the official currency in barcelona is the euro "
         },
         {
-            "question": "what currency is used in barcelona?",
+            "question": "what currency is used?",
             "answer": "in barcelona the official currency is the euro "
         },
         {
-            "question": "what currency is used in barcelona?",
+            "question": "what currency is used?",
             "answer": "the official currency in barcelona is euro"
         },
         {
-            "question": "what currency is used in barcelona?",
+            "question": "what currency is used?",
             "answer": "the official currency of barcelona is the euro "
         },
         {
-            "question": "what currency is used in barcelona?",
+            "question": "what currency is used?",
             "answer": "the official currency in barcelona is the euro "
         },
         {
@@ -245,7 +245,7 @@
             "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
         },
         {
-            "question": "what is a cathedral in barcelona?",
+            "question": "what is a cathedral?",
             "answer": "the barcelona cathedral also known as the cathedral of the holy cross and saint eulalia is a historic gothic structure"
         },
         {
@@ -277,11 +277,11 @@
             "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
         },
         {
-            "question": "what should i bring when traveling in barcelona?",
+            "question": "what should i bring when traveling?",
             "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
         },
         {
-            "question": "are there any historic sites in barcelona?",
+            "question": "are there any historic sites?",
             "answer": "Yes, Barcelona is home to many historical sites, such as the Barcelona Cathedral, Roman walls in the Gothic Quarter, and the Palau Reial Major."
         },
         {
@@ -293,123 +293,123 @@
             "answer": "Yes, Barcelona is home to many historical sites, such as the Barcelona Cathedral, Roman walls in the Gothic Quarter, and the Palau Reial Major."
         },
         {
-            "question": "Where can I find local food in Barcelona?",
+            "question": "Where can I find local food?",
             "answer": "El Born and La Boqueria market are excellent places to taste traditional Catalan cuisine."
         },
         {
-            "question": "which is the typical breakfast in barcelona?",
+            "question": "which is the typical breakfast?",
             "answer": "a typical breakfast in barcelona could include coffee con leche with milk and a bocadillo sandwich or croissant"
         },
         {
-            "question": "which is the typical breakfast in barcelona?",
+            "question": "which is the typical breakfast?",
             "answer": "a typical breakfast in barcelona can include a coffee con leche with milk and a bocadillo sandwich or a croissant"
         },
         {
-            "question": "which is the typical breakfast in barcelona?",
+            "question": "which is the typical breakfast?",
             "answer": "a typical breakfast in barcelona may include coffee con leche with milk and a bocadillo sandwich or croissant'"
         },
         {
-            "question": "which is the typical breakfast in barcelona?",
+            "question": "which is the typical breakfast?",
             "answer": "a typical breakfast in barcelona may include a cafe con leche coffee with milk and a bocadillo sandwich or croissant"
         },
         {
-            "question": "which is the typical breakfast in barcelona?",
+            "question": "which is the typical breakfast?",
             "answer": "a typical breakfast in barcelona may include a caf con leche coffee with milk and a bocadillo sandwich or croissant"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
         },
         {
-            "question": "how can i book a metro ticket in barcelona?",
+            "question": "how can i book a metro ticket?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i buy metro tickets in barcelona?",
+            "question": "how do i buy metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
         },
         {
-            "question": "how do i purchase metro tickets in barcelona?",
+            "question": "how do i purchase metro tickets?",
             "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
         },
         {
@@ -649,23 +649,23 @@
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to the public?",
+            "question": "is the olympic park open to the public?",
             "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to the public?",
+            "question": "is the olympic park open to the public?",
             "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to the public?",
+            "question": "is the olympic park open to the public?",
             "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to the public?",
+            "question": "is the olympic park open to the public?",
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to the public?",
+            "question": "is the olympic park open to the public?",
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
@@ -689,23 +689,23 @@
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to visitors?",
+            "question": "is the olympic park open to visitors?",
             "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to visitors?",
+            "question": "is the olympic park open to visitors?",
             "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to visitors?",
+            "question": "is the olympic park open to visitors?",
             "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to visitors?",
+            "question": "is the olympic park open to visitors?",
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
         },
         {
-            "question": "is the olympic park in barcelona open to visitors?",
+            "question": "is the olympic park open to visitors?",
             "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
         },
         {
@@ -721,11 +721,11 @@
             "answer": "To see Gaud\u00ed's iconic style, visit landmarks such as the Sagrada Familia, Park G\u00fcell, Casa Batll\u00f3, and Casa Mil\u00e0 (La Pedrera)."
         },
         {
-            "question": "are there vegan restaurants in barcelona?",
+            "question": "are there vegan restaurants?",
             "answer": "yes barcelona offers many vegetarian and vegan dining options including places such as teresa carles and veggie garden"
         },
         {
-            "question": "are there vegan restaurants in barcelona?",
+            "question": "are there vegan restaurants?",
             "answer": "yes barcelona offers many vegan and vegetarian dining options including places like teresa carles and the vegetarian garden"
         },
         {
@@ -793,27 +793,27 @@
             "answer": "this rivalry is known as el clsico"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on hop-off bus is a convenient way to explore the major sights of the city"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on hop-off bus is a convenient way to explore the major attractions of the city"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on-hop-off bus is a convenient way to explore the major attractions of the city"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's important attractions"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's major attractions"
         },
         {
-            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "question": "is there a hop-on hop-off bus service?",
             "answer": "yes the hop-on-hop-off bus is a convenient way to explore the city's major attractions"
         },
         {
@@ -889,51 +889,51 @@
             "answer": "the mercat de sant antoni is a popular market in barcelona where you can buy fresh produce clothes and antiques"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "the main shopping areas in barcelona are the passeig de grcia and portal de l'angel"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "the passeig de grcia and portal de l'angel are the most important shopping areas in barcelona"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping areas in barcelona"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping districts of barcelona"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping districts in barcelona"
         },
         {
-            "question": "where should i go shopping in barcelona?",
+            "question": "where should i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the primary shopping districts in barcelona"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "the main shopping areas in barcelona are the passeig de grcia and portal de l'angel"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "the passeig de grcia and portal de l'angel are the most important shopping areas in barcelona"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping areas in barcelona"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping districts of barcelona"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the main shopping districts in barcelona"
         },
         {
-            "question": "where can i go shopping in barcelona?",
+            "question": "where can i go shopping?",
             "answer": "passeig de grcia and portal de l'angel are the primary shopping districts in barcelona"
         },
         {
@@ -1145,83 +1145,83 @@
             "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
         },
         {
-            "question": "what are average summer temperatures in barcelona?",
+            "question": "what are average summer temperatures?",
             "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
         },
         {
-            "question": "what are average summer temperatures in barcelona?",
+            "question": "what are average summer temperatures?",
             "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
         },
         {
-            "question": "what are average summer temperatures in barcelona?",
+            "question": "what are average summer temperatures?",
             "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what are average summer temperatures in barcelona?",
+            "question": "what are average summer temperatures?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what are average summer temperatures in barcelona?",
+            "question": "what are average summer temperatures?",
             "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average summer temperature in barcelona?",
+            "question": "tell me the average summer temperature?",
             "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
         },
         {
-            "question": "tell me the average summer temperature in barcelona?",
+            "question": "tell me the average summer temperature?",
             "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
         },
         {
-            "question": "tell me the average summer temperature in barcelona?",
+            "question": "tell me the average summer temperature?",
             "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average summer temperature in barcelona?",
+            "question": "tell me the average summer temperature?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average summer temperature in barcelona?",
+            "question": "tell me the average summer temperature?",
             "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is average summer temperature in barcelona?",
+            "question": "what is average summer temperature?",
             "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
         },
         {
-            "question": "what is average summer temperature in barcelona?",
+            "question": "what is average summer temperature?",
             "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
         },
         {
-            "question": "what is average summer temperature in barcelona?",
+            "question": "what is average summer temperature?",
             "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is average summer temperature in barcelona?",
+            "question": "what is average summer temperature?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is average summer temperature in barcelona?",
+            "question": "what is average summer temperature?",
             "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what's the average summer temperature in barcelona?",
+            "question": "what's the average summer temperature?",
             "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
         },
         {
-            "question": "what's the average summer temperature in barcelona?",
+            "question": "what's the average summer temperature?",
             "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
         },
         {
-            "question": "what's the average summer temperature in barcelona?",
+            "question": "what's the average summer temperature?",
             "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what's the average summer temperature in barcelona?",
+            "question": "what's the average summer temperature?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what's the average summer temperature in barcelona?",
+            "question": "what's the average summer temperature?",
             "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
         },
         {
@@ -1253,15 +1253,15 @@
             "answer": "the cultural center at el born is a historical site and museum that showcases the medieval history of the neighborhood"
         },
         {
-            "question": "are gluten-free restaurants in barcelona?",
+            "question": "are gluten-free restaurants?",
             "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
         },
         {
-            "question": "are there any gluten-free restaurants in barcelona?",
+            "question": "are there any gluten-free restaurants?",
             "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
         },
         {
-            "question": "are there gluten free restaurants in barcelona?",
+            "question": "are there gluten free restaurants?",
             "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
         },
         {
@@ -1409,111 +1409,111 @@
             "answer": "Casa Batll\u00f3 is a renowned building designed by Gaud\u00ed, famous for its vibrant and imaginative architecture."
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at the rambla el born and at the various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at la rambla el born and on the various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at the rambla el born and at various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found in la rambla el born and at various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found on the rambla el born and various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at the la rambla el born and various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at the rambla el born and various local markets around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "souvenirs can be found at la rambla el born and various local markets around the city"
         },
         {
-            "question": "list the popular tapas bars in barcelona?",
+            "question": "list the popular tapas bars?",
             "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
         },
         {
-            "question": "what tapas bars are popular in barcelona?",
+            "question": "what tapas bars are popular?",
             "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
         },
         {
-            "question": "which tapas bars are popular in barcelona?",
+            "question": "which tapas bars are popular?",
             "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
         },
         {
-            "question": "is there a boat tour option in barcelona?",
+            "question": "is there a boat tour option?",
             "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
         },
         {
-            "question": "is there a boat tour option in barcelona?",
+            "question": "is there a boat tour option?",
             "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "is there a boat tour option in barcelona?",
+            "question": "is there a boat tour option?",
             "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "is there a boat tour option in barcelona?",
+            "question": "is there a boat tour option?",
             "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat trips available in barcelona?",
+            "question": "are boat trips available?",
             "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
         },
         {
-            "question": "are boat trips available in barcelona?",
+            "question": "are boat trips available?",
             "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat trips available in barcelona?",
+            "question": "are boat trips available?",
             "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat trips available in barcelona?",
+            "question": "are boat trips available?",
             "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat tours available in barcelona?",
+            "question": "are boat tours available?",
             "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
         },
         {
-            "question": "are boat tours available in barcelona?",
+            "question": "are boat tours available?",
             "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat tours available in barcelona?",
+            "question": "are boat tours available?",
             "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "are boat tours available in barcelona?",
+            "question": "are boat tours available?",
             "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "is there a boat tour available in barcelona?",
+            "question": "is there a boat tour available?",
             "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
         },
         {
-            "question": "is there a boat tour available in barcelona?",
+            "question": "is there a boat tour available?",
             "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "is there a boat tour available in barcelona?",
+            "question": "is there a boat tour available?",
             "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
-            "question": "is there a boat tour available in barcelona?",
+            "question": "is there a boat tour available?",
             "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
         },
         {
@@ -1553,143 +1553,143 @@
             "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its stunning design and architectural beauty"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you go to the beach at night in barcelona?",
+            "question": "can you go to the beach at night?",
             "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "is it possible to visit the beach at night in barcelona?",
+            "question": "is it possible to visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can you visit the beach at night in barcelona?",
+            "question": "can you visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can we visit the beach at night in barcelona?",
+            "question": "can we visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
-            "question": "can i visit the beach at night in barcelona?",
+            "question": "can i visit the beach at night?",
             "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
         },
         {
@@ -1789,75 +1789,75 @@
             "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
         },
         {
-            "question": "tell me the average temperature in barcelona during the summer months?",
+            "question": "tell me the average temperature during the summer months?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona during the summer months?",
+            "question": "tell me the average temperature during the summer months?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona during the summer months?",
+            "question": "tell me the average temperature during the summer months?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
-            "question": "tell me the average temperature in barcelona during summer?",
+            "question": "tell me the average temperature during summer?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona during summer?",
+            "question": "tell me the average temperature during summer?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona during summer?",
+            "question": "tell me the average temperature during summer?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
-            "question": "what is average temperature in barcelona during summer?",
+            "question": "what is average temperature during summer?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is average temperature in barcelona during summer?",
+            "question": "what is average temperature during summer?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is average temperature in barcelona during summer?",
+            "question": "what is average temperature during summer?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
-            "question": "tell me the average temperature in barcelona in summer?",
+            "question": "tell me the average temperature in summer?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona in summer?",
+            "question": "tell me the average temperature in summer?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "tell me the average temperature in barcelona in summer?",
+            "question": "tell me the average temperature in summer?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
-            "question": "what's the average temperature in barcelona in summer?",
+            "question": "what's the average temperature in summer?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what's the average temperature in barcelona in summer?",
+            "question": "what's the average temperature in summer?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what's the average temperature in barcelona in summer?",
+            "question": "what's the average temperature in summer?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
-            "question": "what is the average temperature in barcelona in summer?",
+            "question": "what is the average temperature in summer?",
             "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is the average temperature in barcelona in summer?",
+            "question": "what is the average temperature in summer?",
             "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
         },
         {
-            "question": "what is the average temperature in barcelona in summer?",
+            "question": "what is the average temperature in summer?",
             "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
         },
         {
@@ -1897,123 +1897,123 @@
             "answer": "the el born cultural center is a historical site and museum that displays the medieval history of the el born district"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "which restaurants are gluten free in barcelona?",
+            "question": "which restaurants are gluten free?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "question": "where can i get gluten-free food at restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "can you find gluten-free restaurants in barcelona?",
+            "question": "can you find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "can i find gluten-free restaurants in barcelona?",
+            "question": "can i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
         },
         {
-            "question": "where do i find gluten-free restaurants in barcelona?",
+            "question": "where do i find gluten-free restaurants?",
             "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
         },
         {
@@ -2157,103 +2157,103 @@
             "answer": "casa batll is a renowned gaud building famous for its vibrant and imaginative design"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can purchase souvenirs at the rambla el born and other markets scattered around the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can buy souvenirs at la rambla el born and at various other markets scattered across the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can buy souvenirs at la rambla el born and numerous other markets scattered throughout the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can buy souvenirs at the rambla el born and various other markets scattered throughout the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can purchase souvenirs at la rambla el born and several other markets scattered throughout the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can buy souvenirs at la rambla el born and various other markets scattered throughout the city"
         },
         {
-            "question": "where can i buy souvenirs in barcelona?",
+            "question": "where can i buy souvenirs?",
             "answer": "you can purchase souvenirs at la rambla el born and at various other markets scattered throughout the city"
         },
         {
-            "question": "which is the best tapa bar in barcelona?",
+            "question": "which is the best tapa bar?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "tell me the best tapas bar in barcelona?",
+            "question": "tell me the best tapas bar?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "which is the best tapas bar in barcelona?",
+            "question": "which is the best tapas bar?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "list some of the best tapas bars in barcelona?",
+            "question": "list some of the best tapas bars?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "what's the best tapas bar in barcelona?",
+            "question": "what's the best tapas bar?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "which are the best tapas bars in barcelona?",
+            "question": "which are the best tapas bars?",
             "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "boat tours along the coastline of barcelona are very popular and offer great views of the city and the mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat tours along the coastline of barcelona are very popular with great views of the city and mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat tours along the coastline of barcelona are very popular and offer great views of the city and the mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "boat tours along the coastline of barcelona are very popular offering great views of the city and the mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat tours along the coast of barcelona are very popular offering great views of the city and the mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat tours along barcelona's coastline are very popular with amazing views of the city and the mediterranean sea"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boats along barcelona's coastline are very popular offering great views of the city and the mediterranean sea"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat trips along barcelona's coastline are very popular offering great views of the city and the mediterranean"
         },
         {
-            "question": "can i take a boat tour in barcelona?",
+            "question": "can i take a boat tour?",
             "answer": "yes boat tours along barcelona's coastline are very popular offering great views of the city and the mediterranean"
         },
         {
-            "question": "which area in barcelona is the best?",
+            "question": "which area is the best?",
             "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
         },
         {
-            "question": "tell me the best place to stay in barcelona?",
+            "question": "tell me the best place to stay?",
             "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
         },
         {
-            "question": "which are the best places to stay in barcelona?",
+            "question": "which are the best places to stay?",
             "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
         },
         {
@@ -2317,51 +2317,51 @@
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "which are the best views to see in barcelona?",
+            "question": "which are the best views to see?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
         },
         {
-            "question": "which are the best views to see in barcelona?",
+            "question": "which are the best views to see?",
             "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "which are the best views to see in barcelona?",
+            "question": "which are the best views to see?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "which are the best views in barcelona?",
+            "question": "which are the best views?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
         },
         {
-            "question": "which are the best views in barcelona?",
+            "question": "which are the best views?",
             "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "which are the best views in barcelona?",
+            "question": "which are the best views?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "tell me the best viewpoint in barcelona?",
+            "question": "tell me the best viewpoint?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
         },
         {
-            "question": "tell me the best viewpoint in barcelona?",
+            "question": "tell me the best viewpoint?",
             "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "tell me the best viewpoint in barcelona?",
+            "question": "tell me the best viewpoint?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "what's the best viewpoint in barcelona?",
+            "question": "what's the best viewpoint?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
         },
         {
-            "question": "what's the best viewpoint in barcelona?",
+            "question": "what's the best viewpoint?",
             "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
-            "question": "what's the best viewpoint in barcelona?",
+            "question": "what's the best viewpoint?",
             "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
         },
         {
@@ -2529,7 +2529,7 @@
             "answer": "The best way to get around Barcelona is by metro, buses, or walking. Taxis and bike rentals are also convenient options."
         },
         {
-            "question": "what are free things to do in barcelona?",
+            "question": "what are free things to do?",
             "answer": "free activities in barcelona include visits to beaches exploring the gothic quarter and walking around certain areas of park guell"
         },
         {
@@ -2537,19 +2537,19 @@
             "answer": "Camp Nou is FC Barcelona's stadium, and it offers guided tours, allowing visitors to explore the locker rooms, pitch, and museum."
         },
         {
-            "question": "what's the weather in barcelona during winter?",
+            "question": "what's the weather during winter?",
             "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
         },
         {
-            "question": "what is the weather in barcelona in the winter?",
+            "question": "what is the weather in the winter?",
             "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
         },
         {
-            "question": "what's the weather in barcelona in winter?",
+            "question": "what's the weather in winter?",
             "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
         },
         {
-            "question": "what is the weather in barcelona in winter?",
+            "question": "what is the weather in winter?",
             "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
         },
         {
@@ -2573,99 +2573,99 @@
             "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and landmarks dating back to Roman times."
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
         },
         {
-            "question": "can you rent a bicycle in barcelona?",
+            "question": "can you rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
         },
         {
-            "question": "can i rent a bicycle in barcelona?",
+            "question": "can i rent a bicycle?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
         },
         {
-            "question": "can i rent bikes in barcelona?",
+            "question": "can i rent bikes?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
         },
         {
-            "question": "can i rent a bike in barcelona?",
+            "question": "can i rent a bike?",
             "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
         },
         {
@@ -2885,7 +2885,7 @@
             "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
         },
         {
-            "question": "are there any parks in barcelona?",
+            "question": "are there any parks?",
             "answer": "yes barcelona boasts many beautiful parks including the parc de la ciutadella and park guell"
         },
         {
@@ -2893,11 +2893,11 @@
             "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
         },
         {
-            "question": "which are some of the best day trips in barcelona?",
+            "question": "which are some of the best day trips?",
             "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
         },
         {
-            "question": "which are the best day trips in barcelona?",
+            "question": "which are the best day trips?",
             "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
         },
         {
@@ -3021,11 +3021,11 @@
             "answer": "casa mil also called la pedrera is a modernist building by antoni gaud renowned for its wave-like stone facade and wrought-iron balconies"
         },
         {
-            "question": "is there nightlife in barcelona?",
+            "question": "is there nightlife?",
             "answer": "Yes, Barcelona has a lively nightlife scene, with many bars, nightclubs, and beach parties, especially in the El Born and Barceloneta areas."
         },
         {
-            "question": "is there a nightlife scene in barcelona?",
+            "question": "is there a nightlife scene?",
             "answer": "Yes, Barcelona has a lively nightlife scene, with many bars, nightclubs, and beach parties, especially in the El Born and Barceloneta areas."
         },
         {
