@@ -1,0 +1,3108 @@
+{
+    "questions": [
+        {
+            "question": "tell me the language spoken in barcelona?",
+            "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
+        },
+        {
+            "question": "what's the main language spoken in barcelona?",
+            "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
+        },
+        {
+            "question": "tell me the primary language spoken in barcelona?",
+            "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
+        },
+        {
+            "question": "which is the primary language spoken in barcelona?",
+            "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
+        },
+        {
+            "question": "what is the primary language spoken in barcelona?",
+            "answer": "catalan is the primary language spoken in barcelona although spanish is also used regularly"
+        },
+        {
+            "question": "what is famous about barcelona?",
+            "answer": "Barcelona is renowned for its distinctive architecture, lively culture, and scenic beaches."
+        },
+        {
+            "question": "what makes barcelona a famous city?",
+            "answer": "Barcelona is renowned for its distinctive architecture, lively culture, and scenic beaches."
+        },
+        {
+            "question": "what is barcelona known for?",
+            "answer": "Barcelona is renowned for its distinctive architecture, lively culture, and scenic beaches."
+        },
+        {
+            "question": "how do i travel from the airport of barcelona to the city center?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "how can i reach barcelona through the airport?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "tell me the best way to travel from barcelona airport to the city centre?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "how can i travel from airport to downtown barcelona?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "how can i travel from barcelona airport to the city centre?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "how can i go from barcelona airport to the downtown?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "how do i travel from barcelona airport to downtown?",
+            "answer": "you can use the aerobs taxi or ride the r2 nord train to the city centre"
+        },
+        {
+            "question": "what is a currency used in barcelona?",
+            "answer": "in barcelona the official currency is the euro "
+        },
+        {
+            "question": "what is a currency used in barcelona?",
+            "answer": "the official currency in barcelona is euro"
+        },
+        {
+            "question": "what is a currency used in barcelona?",
+            "answer": "the official currency of barcelona is the euro "
+        },
+        {
+            "question": "what is a currency used in barcelona?",
+            "answer": "the official currency in barcelona is the euro "
+        },
+        {
+            "question": "which currency is used in barcelona?",
+            "answer": "in barcelona the official currency is the euro "
+        },
+        {
+            "question": "which currency is used in barcelona?",
+            "answer": "the official currency in barcelona is euro"
+        },
+        {
+            "question": "which currency is used in barcelona?",
+            "answer": "the official currency of barcelona is the euro "
+        },
+        {
+            "question": "which currency is used in barcelona?",
+            "answer": "the official currency in barcelona is the euro "
+        },
+        {
+            "question": "what currency is used in barcelona?",
+            "answer": "in barcelona the official currency is the euro "
+        },
+        {
+            "question": "what currency is used in barcelona?",
+            "answer": "the official currency in barcelona is euro"
+        },
+        {
+            "question": "what currency is used in barcelona?",
+            "answer": "the official currency of barcelona is the euro "
+        },
+        {
+            "question": "what currency is used in barcelona?",
+            "answer": "the official currency in barcelona is the euro "
+        },
+        {
+            "question": "what is la rambla and what does it mean?",
+            "answer": "La Rambla is a popular pedestrian avenue in the heart of the city, filled with shops, eateries, and street performers."
+        },
+        {
+            "question": "what does la rambla mean?",
+            "answer": "La Rambla is a popular pedestrian avenue in the heart of the city, filled with shops, eateries, and street performers."
+        },
+        {
+            "question": "tell me the name of la rambla?",
+            "answer": "La Rambla is a popular pedestrian avenue in the heart of the city, filled with shops, eateries, and street performers."
+        },
+        {
+            "question": "what is la rambla?",
+            "answer": "La Rambla is a popular pedestrian avenue in the heart of the city, filled with shops, eateries, and street performers."
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april april to june spring and september september to october fall when the weather is mild and crowds are small"
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april to june spring and september to october fall when the weather is mild and crowds are smaller"
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and october september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what is a good time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april april to june spring and september september to october fall when the weather is mild and crowds are small"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april to june spring and september to october fall when the weather is mild and crowds are smaller"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and october september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "tell me the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april april to june spring and september september to october fall when the weather is mild and crowds are small"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april to june spring and september to october fall when the weather is mild and crowds are smaller"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and october september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what's the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april april to june spring and september september to october fall when the weather is mild and crowds are small"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april to june spring and september to october fall when the weather is mild and crowds are smaller"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and october september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "which is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april april to june spring and september september to october fall when the weather is mild and crowds are small"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are april to june spring and september to october fall when the weather is mild and crowds are smaller"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and october september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are from april to june spring and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and autumn september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "when is the best time to visit barcelona?",
+            "answer": "the best times to visit barcelona are spring april to june and fall september to october when the weather is mild and the crowds are smaller"
+        },
+        {
+            "question": "what is a cathedral in barcelona?",
+            "answer": "the barcelona cathedral also known as the cathedral of the holy cross and saint eulalia is a historic gothic structure"
+        },
+        {
+            "question": "what is a barcelona cathedral?",
+            "answer": "the barcelona cathedral also known as the cathedral of the holy cross and saint eulalia is a historic gothic structure"
+        },
+        {
+            "question": "what is the barcelona cathedral?",
+            "answer": "the barcelona cathedral also known as the cathedral of the holy cross and saint eulalia is a historic gothic structure"
+        },
+        {
+            "question": "what should i bring to barcelona when i'm traveling?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "what should i bring to barcelona?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "what should i bring with me to barcelona?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "what should i bring while i'm traveling to barcelona?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "what should i bring when i travel to barcelona?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "what should i bring when traveling in barcelona?",
+            "answer": "Bring comfortable walking shoes, light clothes for warm weather, and a jacket for the cooler evenings."
+        },
+        {
+            "question": "are there any historic sites in barcelona?",
+            "answer": "Yes, Barcelona is home to many historical sites, such as the Barcelona Cathedral, Roman walls in the Gothic Quarter, and the Palau Reial Major."
+        },
+        {
+            "question": "does barcelona have any historic landmarks?",
+            "answer": "Yes, Barcelona is home to many historical sites, such as the Barcelona Cathedral, Roman walls in the Gothic Quarter, and the Palau Reial Major."
+        },
+        {
+            "question": "does barcelona have any historical landmarks?",
+            "answer": "Yes, Barcelona is home to many historical sites, such as the Barcelona Cathedral, Roman walls in the Gothic Quarter, and the Palau Reial Major."
+        },
+        {
+            "question": "Where can I find local food in Barcelona?",
+            "answer": "El Born and La Boqueria market are excellent places to taste traditional Catalan cuisine."
+        },
+        {
+            "question": "which is the typical breakfast in barcelona?",
+            "answer": "a typical breakfast in barcelona could include coffee con leche with milk and a bocadillo sandwich or croissant"
+        },
+        {
+            "question": "which is the typical breakfast in barcelona?",
+            "answer": "a typical breakfast in barcelona can include a coffee con leche with milk and a bocadillo sandwich or a croissant"
+        },
+        {
+            "question": "which is the typical breakfast in barcelona?",
+            "answer": "a typical breakfast in barcelona may include coffee con leche with milk and a bocadillo sandwich or croissant'"
+        },
+        {
+            "question": "which is the typical breakfast in barcelona?",
+            "answer": "a typical breakfast in barcelona may include a cafe con leche coffee with milk and a bocadillo sandwich or croissant"
+        },
+        {
+            "question": "which is the typical breakfast in barcelona?",
+            "answer": "a typical breakfast in barcelona may include a caf con leche coffee with milk and a bocadillo sandwich or croissant"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how can i book a metro ticket in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i buy metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase metro tickets in barcelona?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i get a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase a ticket for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the mobile app tmb"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can purchase metro tickets from the vending machine kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or by using tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the mobile app of tmb"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through tmb's mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines or kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "how do i purchase tickets for the barcelona metro?",
+            "answer": "you can buy metro tickets from vending machines kiosks or through the tmb mobile app"
+        },
+        {
+            "question": "tell me the best way to visit montjuc?",
+            "answer": "you can take montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to visit montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike up the hilltop for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to visit montjuc?",
+            "answer": "you can ride the montjuc cable car which offers a beautiful view or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to visit montjuc?",
+            "answer": "you can take the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to visit montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to see montjuc?",
+            "answer": "you can take montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to see montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike up the hilltop for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to see montjuc?",
+            "answer": "you can ride the montjuc cable car which offers a beautiful view or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to see montjuc?",
+            "answer": "you can take the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to see montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to discover montjuc?",
+            "answer": "you can take montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to discover montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike up the hilltop for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to discover montjuc?",
+            "answer": "you can ride the montjuc cable car which offers a beautiful view or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to discover montjuc?",
+            "answer": "you can take the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to discover montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "what is a good way to explore montjuc?",
+            "answer": "you can take montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "what is a good way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike up the hilltop for a panoramic view of the city"
+        },
+        {
+            "question": "what is a good way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers a beautiful view or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "what is a good way to explore montjuc?",
+            "answer": "you can take the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "what is a good way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to explore montjuc?",
+            "answer": "you can take montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike up the hilltop for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers a beautiful view or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to explore montjuc?",
+            "answer": "you can take the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "tell me the best way to explore montjuc?",
+            "answer": "you can ride the montjuc cable car which offers beautiful views or hike to the top for a panoramic view of the city"
+        },
+        {
+            "question": "is the barcelona olympic park open for visitors?",
+            "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open for visitors?",
+            "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open for visitors?",
+            "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open for visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open for visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open to visitors?",
+            "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open to visitors?",
+            "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open to visitors?",
+            "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the barcelona olympic park open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to the public?",
+            "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to the public?",
+            "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to the public?",
+            "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to the public?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to the public?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park at barcelona open to visitors?",
+            "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park at barcelona open to visitors?",
+            "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park at barcelona open to visitors?",
+            "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park at barcelona open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park at barcelona open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to visitors?",
+            "answer": "yes montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to visitors?",
+            "answer": "yes the montjuc olympic park is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to visitors?",
+            "answer": "yes the olympic park is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and the surrounding areas"
+        },
+        {
+            "question": "is the olympic park in barcelona open to visitors?",
+            "answer": "yes the olympic park in montjuc is open to the public where you can explore the olympic stadium and surrounding areas"
+        },
+        {
+            "question": "how can i experience and appreciate the work of antoni gaud?",
+            "answer": "To see Gaud\u00ed's iconic style, visit landmarks such as the Sagrada Familia, Park G\u00fcell, Casa Batll\u00f3, and Casa Mil\u00e0 (La Pedrera)."
+        },
+        {
+            "question": "how can i enjoy antoni gaud?",
+            "answer": "To see Gaud\u00ed's iconic style, visit landmarks such as the Sagrada Familia, Park G\u00fcell, Casa Batll\u00f3, and Casa Mil\u00e0 (La Pedrera)."
+        },
+        {
+            "question": "how can i discover antoni gaud's architectural designs?",
+            "answer": "To see Gaud\u00ed's iconic style, visit landmarks such as the Sagrada Familia, Park G\u00fcell, Casa Batll\u00f3, and Casa Mil\u00e0 (La Pedrera)."
+        },
+        {
+            "question": "are there vegan restaurants in barcelona?",
+            "answer": "yes barcelona offers many vegetarian and vegan dining options including places such as teresa carles and veggie garden"
+        },
+        {
+            "question": "are there vegan restaurants in barcelona?",
+            "answer": "yes barcelona offers many vegan and vegetarian dining options including places like teresa carles and the vegetarian garden"
+        },
+        {
+            "question": "how do you get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to get to the monastery"
+        },
+        {
+            "question": "how do you get to montserrat from barcelona?",
+            "answer": "take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how do you get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how do you get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how can i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to get to the monastery"
+        },
+        {
+            "question": "how can i get to montserrat from barcelona?",
+            "answer": "take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how can i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how can i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how do i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to get to the monastery"
+        },
+        {
+            "question": "how do i get to montserrat from barcelona?",
+            "answer": "take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how do i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then take a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how do i get to montserrat from barcelona?",
+            "answer": "you can take a train from plaa espanya to montserrat and then use a cable car or funicular to reach the monastery"
+        },
+        {
+            "question": "how are rivalries between real madrid and barcelona called?",
+            "answer": "this rivalry is known as el clsico"
+        },
+        {
+            "question": "what's the rivalry between real madrid and barcelona?",
+            "answer": "this rivalry is known as el clsico"
+        },
+        {
+            "question": "what is the rivalry between real madrid and barcelona?",
+            "answer": "this rivalry is known as el clsico"
+        },
+        {
+            "question": "what do you call the rivalry between barcelona and real madrid?",
+            "answer": "this rivalry is known as el clsico"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major sights of the city"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's important attractions"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "is there a hop-on hop-off bus service in barcelona?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major sights of the city"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's important attractions"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "does barcelona have hop-on hop-off bus service?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major sights of the city"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the major attractions of the city"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's important attractions"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "does barcelona have a hop-on hop-off bus service?",
+            "answer": "yes the hop-on-hop-off bus is a convenient way to explore the city's major attractions"
+        },
+        {
+            "question": "How can I get to Park G\u00fcell from the city center?",
+            "answer": "you can take metro line 3 to vallcarca or lesseps then walk to the park"
+        },
+        {
+            "question": "How can I get to Park G\u00fcell from the city center?",
+            "answer": "you can take the metro line 3 to vallcarca or lesseps and then walk to the park"
+        },
+        {
+            "question": "How can I get to Park G\u00fcell from the city center?",
+            "answer": "you can take the metro line 3 to vallcarca or lesseps then walk to the park"
+        },
+        {
+            "question": "How can I get to Park G\u00fcell from the city center?",
+            "answer": "you can take the metro line 3 to vallcarca or lesseps then walk into the park"
+        },
+        {
+            "question": "what is mercat sant antoni?",
+            "answer": "the mercat de sant antoni is a popular market in barcelona where you can buy fresh produce clothes and antiques"
+        },
+        {
+            "question": "what is mercat de sant antoni?",
+            "answer": "the mercat de sant antoni is a popular market in barcelona where you can buy fresh produce clothes and antiques"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "the main shopping areas in barcelona are the passeig de grcia and portal de l'angel"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "the passeig de grcia and portal de l'angel are the most important shopping areas in barcelona"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping areas in barcelona"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping districts of barcelona"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping districts in barcelona"
+        },
+        {
+            "question": "where should i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the primary shopping districts in barcelona"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "the main shopping areas in barcelona are the passeig de grcia and portal de l'angel"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "the passeig de grcia and portal de l'angel are the most important shopping areas in barcelona"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping areas in barcelona"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping districts of barcelona"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the main shopping districts in barcelona"
+        },
+        {
+            "question": "where can i go shopping in barcelona?",
+            "answer": "passeig de grcia and portal de l'angel are the primary shopping districts in barcelona"
+        },
+        {
+            "question": "tell me the history of palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner known for its spectacular architecture"
+        },
+        {
+            "question": "tell me the history of the palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner known for its spectacular architecture"
+        },
+        {
+            "question": "can i visit the beach of barcelona nightly?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i visit the beach of barcelona nightly?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i go to the beach of barcelona at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i go to the beach of barcelona at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i visit the beach of barcelona at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i visit the beach of barcelona at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i go to the barcelona beach at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i go to the barcelona beach at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i go to barcelona's beach at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i go to barcelona's beach at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i visit barcelona's beaches at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i visit barcelona's beaches at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "can i visit barcelona's beach at night?",
+            "answer": "yes the beach is open at night and locals and tourists are able to walk there or gather"
+        },
+        {
+            "question": "can i visit barcelona's beach at night?",
+            "answer": "yes the beach is open at night and both locals and tourists love to walk or gather there"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i visit picasso?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do you get to picasso's museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "where can i visit the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "what are ways to get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily get there by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "what are average summer temperatures in barcelona?",
+            "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
+        },
+        {
+            "question": "what are average summer temperatures in barcelona?",
+            "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
+        },
+        {
+            "question": "what are average summer temperatures in barcelona?",
+            "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what are average summer temperatures in barcelona?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what are average summer temperatures in barcelona?",
+            "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
+        },
+        {
+            "question": "tell me the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
+        },
+        {
+            "question": "tell me the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
+        },
+        {
+            "question": "what is average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
+        },
+        {
+            "question": "what is average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what's the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range from 25 to 30c 77 to 86 degrees"
+        },
+        {
+            "question": "what's the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona usually range from 25 to 30 degrees 77 f to 86 f"
+        },
+        {
+            "question": "what's the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona range typically from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what's the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what's the average summer temperature in barcelona?",
+            "answer": "summer temperatures in barcelona typically range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the major festival festa de grcia is an annual festival celebrated in the neighbourhood of grcia known for its street decorations and lively ambiance"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival celebrated in the neighborhood of grcia famous for its street decorations and lively atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the major festa de grcia is an annual festival celebrated in the grcia neighborhood known for its street decorations and lively atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival celebrated in grcia neighborhood famous for its street decorations and lively atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival celebrated in the grcia neighborhood famous for its street decorations and lively atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival celebrated in the grcia neighborhood famous for its street decorations and lively ambiance"
+        },
+        {
+            "question": "what is the el born cultural center?",
+            "answer": "the cultural center at el born is a historical site and museum that showcases the medieval history of the neighborhood"
+        },
+        {
+            "question": "are gluten-free restaurants in barcelona?",
+            "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
+        },
+        {
+            "question": "are there any gluten-free restaurants in barcelona?",
+            "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
+        },
+        {
+            "question": "are there gluten free restaurants in barcelona?",
+            "answer": "yes barcelona has many restaurants that offer gluten-free options such as glria and celiacs"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "tell me the fastest way to climb montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "tell me the fastest way to climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "tell me the fastest way to climb montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "tell me the fastest way to climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "tell me the fastest way to climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb mount montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb mount montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how do i climb mount montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb mount montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i climb mount montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you climb montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how can you climb montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you reach the top of montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how can you reach the top of montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how can you reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i reach the top of montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how do i reach the top of montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i reach the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular at the parallel metro station"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station"
+        },
+        {
+            "question": "What is Casa Batll\u00f3?",
+            "answer": "Casa Batll\u00f3 is a renowned building designed by Gaud\u00ed, famous for its vibrant and imaginative architecture."
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at the rambla el born and at the various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at la rambla el born and on the various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at the rambla el born and at various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found in la rambla el born and at various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found on the rambla el born and various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at the la rambla el born and various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at the rambla el born and various local markets around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "souvenirs can be found at la rambla el born and various local markets around the city"
+        },
+        {
+            "question": "list the popular tapas bars in barcelona?",
+            "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
+        },
+        {
+            "question": "what tapas bars are popular in barcelona?",
+            "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
+        },
+        {
+            "question": "which tapas bars are popular in barcelona?",
+            "answer": "among the notable tapas bars are el quim de la boqueria cal pep and la cova fumada"
+        },
+        {
+            "question": "is there a boat tour option in barcelona?",
+            "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour option in barcelona?",
+            "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour option in barcelona?",
+            "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour option in barcelona?",
+            "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat trips available in barcelona?",
+            "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
+        },
+        {
+            "question": "are boat trips available in barcelona?",
+            "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat trips available in barcelona?",
+            "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat trips available in barcelona?",
+            "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat tours available in barcelona?",
+            "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
+        },
+        {
+            "question": "are boat tours available in barcelona?",
+            "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat tours available in barcelona?",
+            "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "are boat tours available in barcelona?",
+            "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour available in barcelona?",
+            "answer": "yes boat trips along the coast are popular and offer spectacular views of the city and mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour available in barcelona?",
+            "answer": "yes boats along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour available in barcelona?",
+            "answer": "yes boat tours along the coast are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "is there a boat tour available in barcelona?",
+            "answer": "yes boat tours along the coastline are popular and offer spectacular views of the city and the mediterranean sea"
+        },
+        {
+            "question": "tell me the history of palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its breathtaking design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner known for its stunning design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its stunning design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its breathtaking design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner known for its stunning design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its stunning design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its breathtaking design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner known for its stunning design and architectural beauty"
+        },
+        {
+            "question": "tell me the history of the palau de la msica catalana?",
+            "answer": "the palau de la msica catalana is a modernist concert hall designed by llus domnech i montaner famous for its stunning design and architectural beauty"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you go to the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "is it possible to visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can you visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can we visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening walks and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular place for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and is a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "can i visit the beach at night in barcelona?",
+            "answer": "yes the beach is open at night and it's a popular spot for both locals and tourists to enjoy evening strolls and gatherings"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro lines 1 or 4 to jaume i station"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking metro lines 1 or 4 to the jaume i station"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro lines 1 or 4 to jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking metro lines 1 or 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how can i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro lines 1 or 4 to jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking metro lines 1 or 4 to the jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i go to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro lines 1 or 4 to jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking metro lines 1 or 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and can easily be reached by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and is easily accessible by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to jaume i station"
+        },
+        {
+            "question": "how do i get to the picasso museum?",
+            "answer": "the picasso museum is located in el born and you can easily reach it by walking or taking the metro line 1 or line 4 to the jaume i station"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during the summer months?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during the summer months?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during the summer months?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during summer?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during summer?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona during summer?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "what is average temperature in barcelona during summer?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is average temperature in barcelona during summer?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is average temperature in barcelona during summer?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "tell me the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "tell me the average temperature in barcelona in summer?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "what's the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what's the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what's the average temperature in barcelona in summer?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "what is the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona vary generally from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is the average temperature in barcelona in summer?",
+            "answer": "summer temperatures in barcelona generally range from 25c to 30c 77f to 86f"
+        },
+        {
+            "question": "what is the average temperature in barcelona in summer?",
+            "answer": "the summer temperatures generally range from 25c to 30c 77f to 86f in barcelona"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the major festa de grcia is an annual festival in the neighborhood of grcia famous for its street decorations and festive atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "festa major de grcia is an annual festival in the neighborhood of grcia famous for its street decorations and festive atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival in the neighborhood of grcia famous for its street decorations and festive atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival in the grcia neighborhood known for its street decorations and festive atmosphere"
+        },
+        {
+            "question": "What is the Festa Major de Gr\u00e0cia?",
+            "answer": "the festa major de grcia is an annual festival in the grcia neighborhood famous for its street decorations and festive atmosphere"
+        },
+        {
+            "question": "what is the el born cultural center?",
+            "answer": "the el born cultural center is a historical site and museum that showcases the medieval history of the district of el born"
+        },
+        {
+            "question": "what is the el born cultural center?",
+            "answer": "the cultural center el born is a historical site and museum that showcases the medieval history of the el born district"
+        },
+        {
+            "question": "what is the el born cultural center?",
+            "answer": "the el born cultural center is a historic site and museum that displays the medieval history of the el born district"
+        },
+        {
+            "question": "what is the el born cultural center?",
+            "answer": "the el born cultural center is a historical site and museum that displays the medieval history of the el born district"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "which restaurants are gluten free in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "where can i get gluten-free food at restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "can you find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "can i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary requirements"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater for dietary needs"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs that cater to dietary needs"
+        },
+        {
+            "question": "where do i find gluten-free restaurants in barcelona?",
+            "answer": "yes there are many gluten-free restaurants in barcelona such as glria and celiacs which cater to dietary needs"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular tram from the parallel station to the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "take the montjuc cable car or the funicular of the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular bus from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i climb montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular tram from the parallel station to the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "take the montjuc cable car or the funicular of the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular bus from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i climb the mount montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular tram from the parallel station to the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "take the montjuc cable car or the funicular of the parallel metro station to the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular bus from the parallel metro station to the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how can i climb to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular tram from the parallel station to the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "take the montjuc cable car or the funicular of the parallel metro station to the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular bus from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "how do i get to the top of montjuc?",
+            "answer": "you can take the montjuc cable car or the funicular from the parallel metro station to reach the top"
+        },
+        {
+            "question": "What is the Casa Batll\u00f3?",
+            "answer": "casa batll is a famous gaud building known for its vibrant and imaginative design"
+        },
+        {
+            "question": "What is the Casa Batll\u00f3?",
+            "answer": "casa batll is a renowned gaud building known for its vibrant and imaginative design"
+        },
+        {
+            "question": "What is the Casa Batll\u00f3?",
+            "answer": "casa batll is a renowned gaud building famous for its vibrant and imaginative design"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can purchase souvenirs at the rambla el born and other markets scattered around the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can buy souvenirs at la rambla el born and at various other markets scattered across the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can buy souvenirs at la rambla el born and numerous other markets scattered throughout the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can buy souvenirs at the rambla el born and various other markets scattered throughout the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can purchase souvenirs at la rambla el born and several other markets scattered throughout the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can buy souvenirs at la rambla el born and various other markets scattered throughout the city"
+        },
+        {
+            "question": "where can i buy souvenirs in barcelona?",
+            "answer": "you can purchase souvenirs at la rambla el born and at various other markets scattered throughout the city"
+        },
+        {
+            "question": "which is the best tapa bar in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "tell me the best tapas bar in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "which is the best tapas bar in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "list some of the best tapas bars in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "what's the best tapas bar in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "which are the best tapas bars in barcelona?",
+            "answer": "Popular tapas bars in Barcelona include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "boat tours along the coastline of barcelona are very popular and offer great views of the city and the mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat tours along the coastline of barcelona are very popular with great views of the city and mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat tours along the coastline of barcelona are very popular and offer great views of the city and the mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "boat tours along the coastline of barcelona are very popular offering great views of the city and the mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat tours along the coast of barcelona are very popular offering great views of the city and the mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat tours along barcelona's coastline are very popular with amazing views of the city and the mediterranean sea"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boats along barcelona's coastline are very popular offering great views of the city and the mediterranean sea"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat trips along barcelona's coastline are very popular offering great views of the city and the mediterranean"
+        },
+        {
+            "question": "can i take a boat tour in barcelona?",
+            "answer": "yes boat tours along barcelona's coastline are very popular offering great views of the city and the mediterranean"
+        },
+        {
+            "question": "which area in barcelona is the best?",
+            "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
+        },
+        {
+            "question": "tell me the best place to stay in barcelona?",
+            "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
+        },
+        {
+            "question": "which are the best places to stay in barcelona?",
+            "answer": "eixample el born and the gothic quarter are ideal destinations to stay in barcelona because they are close to many attractions"
+        },
+        {
+            "question": "what is poble espanyol?",
+            "answer": "poble espanyol is an open-air museum that displays replicas of traditional spanish buildings alongside shops and restaurants"
+        },
+        {
+            "question": "what is poble espanyol?",
+            "answer": "poble espanyol is an open-air museum displaying replicas of traditional spanish buildings along with shops and restaurants"
+        },
+        {
+            "question": "what is sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud and known for its unique and unfinished architecture"
+        },
+        {
+            "question": "what is sagrada familia?",
+            "answer": "sagrada familia is an iconic basilica built by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "what is sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architecture"
+        },
+        {
+            "question": "what is sagrada familia?",
+            "answer": "sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "what is sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "what is the sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud and known for its unique and unfinished architecture"
+        },
+        {
+            "question": "what is the sagrada familia?",
+            "answer": "sagrada familia is an iconic basilica built by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "what is the sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architecture"
+        },
+        {
+            "question": "what is the sagrada familia?",
+            "answer": "sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "what is the sagrada familia?",
+            "answer": "the sagrada familia is an iconic basilica designed by antoni gaud known for its unique and unfinished architectural design"
+        },
+        {
+            "question": "list the best views of barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
+        },
+        {
+            "question": "list the best views of barcelona?",
+            "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "list the best views of barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "which are the best views to see in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
+        },
+        {
+            "question": "which are the best views to see in barcelona?",
+            "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "which are the best views to see in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "which are the best views in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
+        },
+        {
+            "question": "which are the best views in barcelona?",
+            "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "which are the best views in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "tell me the best viewpoint in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
+        },
+        {
+            "question": "tell me the best viewpoint in barcelona?",
+            "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "tell me the best viewpoint in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "what's the best viewpoint in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the monument of columbus"
+        },
+        {
+            "question": "what's the best viewpoint in barcelona?",
+            "answer": "top-quality viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "what's the best viewpoint in barcelona?",
+            "answer": "top viewpoints in barcelona include montjuc park gell and the rooftop of the columbus monument"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "the boqueria market is located on the rambla and it is easy to reach from most central locations by walking"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "la boqueria market is located on the rambla and it is easily reached by walking from most central locations"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "la boqueria market is located on the rambla and it is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "la boqueria market is located in la rambla and is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "the boqueria market is located on la rambla and is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit the market in la boqueria?",
+            "answer": "la boqueria market is located on la rambla and it's easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "the boqueria market is located on the rambla and it is easy to reach from most central locations by walking"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "la boqueria market is located on the rambla and it is easily reached by walking from most central locations"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "la boqueria market is located on the rambla and it is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "la boqueria market is located in la rambla and is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "the boqueria market is located on la rambla and is easy to reach by walking from most central locations"
+        },
+        {
+            "question": "how can i visit la boqueria market?",
+            "answer": "la boqueria market is located on la rambla and it's easy to reach by walking from most central locations"
+        },
+        {
+            "question": "is barcelona safe for a holiday?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a holiday?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a holiday?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a holiday?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe place to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe place to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe place to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe place to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a tourist?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a tourist?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a tourist?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for a tourist?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city to visit?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona safe for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets particularly in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be aware of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be careful of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "is barcelona a safe city for tourists?",
+            "answer": "barcelona is generally safe for tourists but you should be cautious of pickpockets especially in crowded areas"
+        },
+        {
+            "question": "What is the Palau G\u00fcell?",
+            "answer": "Palau G\u00fcell is another masterpiece by Gaud\u00ed, known for its grand architecture and historical importance."
+        },
+        {
+            "question": "how should i get around barcelona?",
+            "answer": "The best way to get around Barcelona is by metro, buses, or walking. Taxis and bike rentals are also convenient options."
+        },
+        {
+            "question": "tell me the best way to get around barcelona?",
+            "answer": "The best way to get around Barcelona is by metro, buses, or walking. Taxis and bike rentals are also convenient options."
+        },
+        {
+            "question": "which are the best ways to get around barcelona?",
+            "answer": "The best way to get around Barcelona is by metro, buses, or walking. Taxis and bike rentals are also convenient options."
+        },
+        {
+            "question": "what's the best way to get around barcelona?",
+            "answer": "The best way to get around Barcelona is by metro, buses, or walking. Taxis and bike rentals are also convenient options."
+        },
+        {
+            "question": "what are free things to do in barcelona?",
+            "answer": "free activities in barcelona include visits to beaches exploring the gothic quarter and walking around certain areas of park guell"
+        },
+        {
+            "question": "what is camp nou?",
+            "answer": "Camp Nou is FC Barcelona's stadium, and it offers guided tours, allowing visitors to explore the locker rooms, pitch, and museum."
+        },
+        {
+            "question": "what's the weather in barcelona during winter?",
+            "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
+        },
+        {
+            "question": "what is the weather in barcelona in the winter?",
+            "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
+        },
+        {
+            "question": "what's the weather in barcelona in winter?",
+            "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
+        },
+        {
+            "question": "what is the weather in barcelona in winter?",
+            "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10\u00b0C to 15\u00b0C (50\u00b0F to 59\u00b0F)."
+        },
+        {
+            "question": "What is the Passeig de Gr\u00e0cia?",
+            "answer": "Passeig de Gr\u00e0cia is a major avenue known for its upscale shops, historic buildings, and Gaud\u00ed architecture."
+        },
+        {
+            "question": "tell me the gothic quarter's history?",
+            "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and landmarks dating back to Roman times."
+        },
+        {
+            "question": "tell me the history of gothic quarter?",
+            "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and landmarks dating back to Roman times."
+        },
+        {
+            "question": "tell me the history of the gothic quarter?",
+            "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and landmarks dating back to Roman times."
+        },
+        {
+            "question": "what is the history of the gothic quarter?",
+            "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and landmarks dating back to Roman times."
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
+        },
+        {
+            "question": "can you rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
+        },
+        {
+            "question": "can i rent a bicycle in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
+        },
+        {
+            "question": "can i rent bikes in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bicycles from various shops or use the bicing public bicycle-sharing service"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bikes from various stores or use the bicing public bike-sharing service"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the bike sharing service bicing"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service biking"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike sharing service bicing"
+        },
+        {
+            "question": "can i rent a bike in barcelona?",
+            "answer": "yes you can rent bikes from various shops or use the public bike-sharing service bicing"
+        },
+        {
+            "question": "tell me the best way to buy tickets for the sagrada familia festival in italy?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "tell me the best way to buy tickets for the sagrada familia festival in italy?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "tell me the best way to buy tickets for the sagrada familia festival in italy?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "tell me the best way to buy tickets for the sagrada familia festival in italy?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how can i purchase tickets for the sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "how can i purchase tickets for the sagrada familia?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how can i purchase tickets for the sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how can i purchase tickets for the sagrada familia?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i book tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "how do i book tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i book tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i book tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "where can i get tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "where can i get tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "where can i get tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "where can i get tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "how do i get tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for sagrada familia?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for the sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office located near the basilica"
+        },
+        {
+            "question": "how do i get tickets for the sagrada familia?",
+            "answer": "tickets for the sagrada familia can be bought online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for the sagrada familia?",
+            "answer": "tickets for sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "how do i get tickets for the sagrada familia?",
+            "answer": "tickets for the sagrada familia can be purchased online in advance or at the ticket office near the basilica"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the museu nacional d'art de catalunya is a museum which houses a large collection of catalan art from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the national d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern times"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from romanesque to modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the museu nacional d'art of catalunya is a museum which has a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalonia?",
+            "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum which houses a large collection of catalan art from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the national d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern periods"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern times"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from romanesque to modern periods"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the museu nacional d'art of catalunya is a museum which has a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national museum of art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum which houses a large collection of catalan art from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the national d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern times"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from romanesque to modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the museu nacional d'art of catalunya is a museum which has a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the national art museum of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum which houses a large collection of catalan art from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the national d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern periods"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern times"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from romanesque to modern periods"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the museu nacional d'art of catalunya is a museum which has a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museu nacional d'art of catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum which houses a large collection of catalan art from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the national d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern periods"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from the romanesque to modern times"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum with a large collection of catalan art from romanesque to modern periods"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the museu nacional d'art of catalunya is a museum which has a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "what is the museum nacional d'art de catalunya?",
+            "answer": "the museu nacional d'art de catalunya is a museum that houses a large collection of catalan art ranging from the romanesque to the modern periods"
+        },
+        {
+            "question": "are there any parks in barcelona?",
+            "answer": "yes barcelona boasts many beautiful parks including the parc de la ciutadella and park guell"
+        },
+        {
+            "question": "list the best day trips to barcelona?",
+            "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
+        },
+        {
+            "question": "which are some of the best day trips in barcelona?",
+            "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
+        },
+        {
+            "question": "which are the best day trips in barcelona?",
+            "answer": "Great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and fashionable bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse area known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a vibrant diverse neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a diverse and dynamic neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a diverse lively neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a diverse and vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval's neighborhood known for?",
+            "answer": "el raval is a diverse vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and fashionable bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse area known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a vibrant diverse neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a diverse and dynamic neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a diverse lively neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a diverse and vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what is el raval a neighborhood known for?",
+            "answer": "el raval is a diverse vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and fashionable bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse area known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a vibrant and diverse neighbourhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a vibrant diverse neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a diverse and dynamic neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a diverse lively neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a diverse and vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "what's the el raval neighborhood known for?",
+            "answer": "el raval is a diverse vibrant neighborhood known for its multicultural atmosphere street art and trendy bars"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also known as la pedrera is a modernist building by antoni gaud famous for its wave-like stone facade and wrought-iron balconies"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also known as la pedrera is a modernist building by antoni gaud renowned for its wave-like stone facade and wrought-iron balconies"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also called la pedrera is a modernist building by antoni gaud renowned for its wave-like stone facade and wrought iron balcony"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also called la pedrera is a modernist building by antoni gaud renowned for its wavelike stone facade and wrought iron balconies"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also called la pedrera is a modernist building by antoni gaud renowned for its wavelike stone facade and wrought-iron balconies"
+        },
+        {
+            "question": "What is the Casa Mil\u00e0 (La Pedrera)?",
+            "answer": "casa mil also called la pedrera is a modernist building by antoni gaud renowned for its wave-like stone facade and wrought-iron balconies"
+        },
+        {
+            "question": "is there nightlife in barcelona?",
+            "answer": "Yes, Barcelona has a lively nightlife scene, with many bars, nightclubs, and beach parties, especially in the El Born and Barceloneta areas."
+        },
+        {
+            "question": "is there a nightlife scene in barcelona?",
+            "answer": "Yes, Barcelona has a lively nightlife scene, with many bars, nightclubs, and beach parties, especially in the El Born and Barceloneta areas."
+        },
+        {
+            "question": "What is the El Born district known for?",
+            "answer": "El Born is famous for its trendy shops, art galleries, and historical landmarks, including the Picasso Museum and the El Born Cultural Center."
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "boqueria is a lively public market on la rambla that offers local produce fresh produce and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "la boqueria is a lively public market located on the rambla offering fresh produce local specialties and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "la boqueria is a lively public market located on la rambla offering fresh produce local specialities and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "boqueria is a lively public market located on the rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "la boqueria is a lively public market located on the rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the boqueria market?",
+            "answer": "la boqueria is a lively public market located on la rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "boqueria is a lively public market on la rambla that offers local produce fresh produce and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "la boqueria is a lively public market located on the rambla offering fresh produce local specialties and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "la boqueria is a lively public market located on la rambla offering fresh produce local specialities and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "boqueria is a lively public market located on the rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "la boqueria is a lively public market located on the rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "what is a boqueria market?",
+            "answer": "la boqueria is a lively public market located on la rambla offering fresh produce local delicacies and ready-to-eat meals"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at ticket offices consider buying the barcelona card for discounts and fast access"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at ticket offices consider buying the barcelona card for discounts and quick entry"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at the ticket office consider buying the barcelona card for discounts and fast access"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at ticket offices consider buying the barcelona card for discounts and fast entry"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at the ticket offices consider buying the barcelona card for discounts and fast-track access"
+        },
+        {
+            "question": "tell me the best way to book barcelona attractions?",
+            "answer": "tickets for attractions can be purchased online or at ticket offices consider buying the barcelona card for discounts and fast-track entry"
+        }
+    ]
+}
