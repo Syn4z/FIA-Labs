@@ -229,12 +229,3 @@ def load_model(model_path, device='cpu'):
 
     model.load_state_dict(torch.load(model_path, map_location=device))
     return model
-
-# # Testing
-# model = load_model('models/model_layers2_dropout05_augData.pth', device)
-# while True:
-#     question = input("Ask a question (or type 'exit' to quit): ")
-#     if question.lower() == "exit":
-#         break
-#     answer = translate(model, question, train_question_vocab, train_answer_vocab, device=device)
-#     print(f"Answer: {answer}")
