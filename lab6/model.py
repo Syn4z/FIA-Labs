@@ -156,13 +156,13 @@ def translate(model, question, q_vocab, a_vocab, max_len=50, device='cpu'):
     # Tokenize the question
     tokens = encode_sentence(question, q_vocab)
 
-    # Check if the question contains only special tokens (<bos>, <pad>, <eos>)
+    # Check the number of unknown tokens(words out of vocabulary)
     unknown_tokens_count = sum(1 for token in tokens if token == q_vocab["<unk>"])
 
     # Check if there are 2 or more non-<unk> tokens
     if len(tokens) >= 3 and unknown_tokens_count >= int(len(tokens)/3):
         return "I'm sorry, I didn't understand that."
-    elif len(tokens) <= 3 and unknown_tokens_count >= 1:
+    elif len(tokens) <= 3:
         return "I'm sorry, I didn't understand that."
 
     # Encode the question

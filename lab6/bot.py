@@ -56,7 +56,6 @@ def main():
     
     # Message Handler for responding to user queries
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-
     app.run_polling()
 
 if __name__ == '__main__':
