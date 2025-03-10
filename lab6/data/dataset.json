@@ -1,0 +1,557 @@
+{
+    "questions": [
+        {
+            "question": "What is the main language spoken in Barcelona?",
+            "answer": "The main language spoken in Barcelona is Catalan, but Spanish is also widely spoken."
+        },
+        {
+            "question": "What is Barcelona known for?",
+            "answer": "Barcelona is known for its unique architecture, vibrant culture, and beautiful beaches."
+        },
+        {
+            "question": "How do I get from Barcelona airport to the city center?",
+            "answer": "You can take the Aerobús, a taxi, or the train (R2 Nord) to the city center."
+        },
+        {
+            "question": "What is the currency used in Barcelona?",
+            "answer": "The currency used in Barcelona is the Euro (€)."
+        },
+        {
+            "question": "What is La Rambla?",
+            "answer": "La Rambla is a famous pedestrian street in the city center, lined with shops, restaurants, and street performers."
+        },
+        {
+            "question": "What is the best time of year to visit Barcelona?",
+            "answer": "The best time to visit Barcelona is in spring (April to June) or fall (September to October) when the weather is pleasant and crowds are smaller."
+        },
+        {
+            "question": "What is the Barcelona Cathedral?",
+            "answer": "The Barcelona Cathedral, also known as the Cathedral of the Holy Cross and Saint Eulalia, is a Gothic cathedral with a rich history."
+        },
+        {
+            "question": "What should I pack for a trip to Barcelona?",
+            "answer": "Pack comfortable shoes for walking, light clothing for warm weather, and a jacket for cooler evenings."
+        },
+        {
+            "question": "Are there any historic sites in Barcelona?",
+            "answer": "Yes, Barcelona has many historic sites, including the Barcelona Cathedral, the Roman walls in the Gothic Quarter, and the Palau Reial Major."
+        },
+        {
+            "question": "What is a good area to visit for local food in Barcelona?",
+            "answer": "El Born and La Boqueria market are great places to find traditional Catalan dishes."
+        },
+        {
+            "question": "What is the typical breakfast like in Barcelona?",
+            "answer": "A typical breakfast might include 'café con leche' (coffee with milk) and a 'bocadillo' (sandwich) or 'croissant.'"
+        },
+        {
+            "question": "How do I get tickets for the Barcelona Metro?",
+            "answer": "You can buy metro tickets from ticket machines, kiosks, or the TMB app."
+        },
+        {
+            "question": "What is the best way to explore the Montjuïc area?",
+            "answer": "You can take the Montjuïc cable car, which offers stunning views, or hike to the top for panoramic views of the city."
+        },
+        {
+            "question": "Can I visit the Olympic Park in Barcelona?",
+            "answer": "Yes, the Olympic Park in Montjuïc is open to the public, and you can explore the Olympic stadium and surrounding areas."
+        },
+        {
+            "question": "What is the best way to see the architectural works of Antoni Gaudí?",
+            "answer": "Visit key Gaudí sites like the Sagrada Familia, Park Güell, Casa Batlló, and Casa Milà (La Pedrera) to see his distinctive architectural style."
+        },
+        {
+            "question": "Are there any vegan-friendly restaurants in Barcelona?",
+            "answer": "Yes, Barcelona has many vegan and vegetarian restaurants, including restaurants like Teresa Carles and Veggie Garden."
+        },
+        {
+            "question": "How do I get to Montserrat from Barcelona?",
+            "answer": "You can take a train from Plaça Espanya to Montserrat and then a cable car or funicular to the monastery."
+        },
+        {
+            "question": "What is the famous football rivalry between Barcelona and Real Madrid called?",
+            "answer": "The rivalry is known as 'El Clásico.'"
+        },
+        {
+            "question": "Is there a hop-on-hop-off bus in Barcelona?",
+            "answer": "Yes, the hop-on-hop-off bus is a popular way to see the city's main attractions."
+        },
+        {
+            "question": "How do I get to the Park Guell from the city center?",
+            "answer": "You can take the metro (Line 3) to Vallcarca or Lesseps and then walk up to the park."
+        },
+        {
+            "question": "What is the Mercat de Sant Antoni?",
+            "answer": "It's a popular market in Barcelona where you can buy fresh produce, clothes, and antiques."
+        },
+        {
+            "question": "Is there a shopping district in Barcelona?",
+            "answer": "Yes, Passeig de Gràcia and Portal de l'Angel are the main shopping districts in Barcelona."
+        },
+        {
+            "question": "What is the history of the Palau de la Música Catalana?",
+            "answer": "The Palau de la Música Catalana is a modernist concert hall, designed by Lluís Domènech i Montaner, known for its stunning architecture."
+        },
+        {
+            "question": "Can I visit the beach at night in Barcelona?",
+            "answer": "Yes, the beach is open at night, and many locals and tourists enjoy the area for nighttime strolls and gatherings."
+        },
+        {
+            "question": "How do I get to the Picasso Museum?",
+            "answer": "The Picasso Museum is located in El Born, and you can easily walk or take the metro (Line 1 or Line 4) to Jaume I station."
+        },
+        {
+            "question": "What is the average temperature in Barcelona in summer?",
+            "answer": "Summer temperatures in Barcelona typically range from 25°C to 30°C (77°F to 86°F)."
+        },
+        {
+            "question": "What is the Festa Major de Gràcia?",
+            "answer": "The Festa Major de Gràcia is an annual festival held in the Gràcia neighborhood, known for its street decorations and lively atmosphere."
+        },
+        {
+            "question": "What is the El Born Cultural Center?",
+            "answer": "The El Born Cultural Center is a historical site and museum showcasing the medieval history of the neighborhood."
+        },
+        {
+            "question": "Can I find gluten-free restaurants in Barcelona?",
+            "answer": "Yes, many restaurants in Barcelona offer gluten-free options, including specialized restaurants like Glòria and Celiacs."
+        },
+        {
+            "question": "How do I get to the top of Montjuïc?",
+            "answer": "You can take the Montjuïc cable car or the funicular from Parallel metro station."
+        },
+        {
+            "question": "What is the Casa Batlló?",
+            "answer": "Casa Batlló is a famous building designed by Gaudí, known for its colorful, imaginative architecture."
+        },
+        {
+            "question": "Where can I buy souvenirs in Barcelona?",
+            "answer": "You can find souvenirs at La Rambla, El Born, and various markets around the city."
+        },
+        {
+            "question": "What are the best tapas bars in Barcelona?",
+            "answer": "Some popular tapas bars include El Quim de la Boqueria, Cal Pep, and La Cova Fumada."
+        },
+        {
+            "question": "Can I take a boat tour in Barcelona?",
+            "answer": "Yes, boat tours along the coast are popular, offering great views of the city and the Mediterranean Sea."
+        },  
+        {
+            "question": "What is the best area to stay in Barcelona?",
+            "answer": "Popular areas to stay in Barcelona include Eixample, El Born, and the Gothic Quarter, as they are close to many attractions."
+        },
+        {
+            "question": "What is the Poble Espanyol?",
+            "answer": "Poble Espanyol is an open-air architectural museum showcasing replicas of traditional Spanish buildings and offering various shops and restaurants."
+        },
+        {
+            "question": "What is the Sagrada Familia?",
+            "answer": "The Sagrada Familia is a famous basilica designed by Antoni Gaudí, known for its unique, unfinished architecture."
+        },
+        {
+            "question": "What are the best viewpoints in Barcelona?",
+            "answer": "The best viewpoints in Barcelona include Montjuïc, Park Güell, and the rooftop of the Columbus Monument."
+        },
+        {
+            "question": "How do I visit the La Boqueria market?",
+            "answer": "La Boqueria market is located on La Rambla, and you can easily walk there from most central locations."
+        },
+        {
+            "question": "Is Barcelona a safe city for tourists?",
+            "answer": "Barcelona is generally safe for tourists, but it's important to be cautious of pickpockets, especially in crowded areas."
+        },
+        {
+            "question": "What is the Palau Güell?",
+            "answer": "Palau Güell is another Gaudí-designed building in Barcelona, known for its grand architecture and historical significance."
+        },
+        {
+            "question": "What is the best way to get around Barcelona?",
+            "answer": "The best way to get around Barcelona is by using the metro, buses, or walking. Taxis and bike rentals are also popular options."
+        },
+        {
+            "question": "What are some free things to do in Barcelona?",
+            "answer": "Some free things to do in Barcelona include visiting the city's beaches, exploring the Gothic Quarter, and walking around Park Guell (some areas are free)."
+        },
+        {
+            "question": "What is the Camp Nou?",
+            "answer": "Camp Nou is the stadium of FC Barcelona, and it offers tours where you can explore the locker rooms, pitch, and museum."
+        },
+        {
+            "question": "What is the weather like in Barcelona in winter?",
+            "answer": "Winter in Barcelona is mild, with average temperatures ranging from 10°C to 15°C (50°F to 59°F)."
+        },
+        {
+            "question": "What is the Passeig de Gràcia?",
+            "answer": "Passeig de Gràcia is a major avenue in Barcelona known for its high-end shops, historic buildings, and famous Gaudí architecture."
+        },
+        {
+            "question": "What is the history of the Gothic Quarter?",
+            "answer": "The Gothic Quarter is the oldest part of Barcelona, with medieval buildings, narrow streets, and historical landmarks dating back to Roman times."
+        },
+        {
+            "question": "Can I rent a bike in Barcelona?",
+            "answer": "Yes, you can rent bikes from various rental shops or use the public bike-sharing service called Bicing."
+        },
+        {
+            "question": "How do I get tickets for the Sagrada Familia?",
+            "answer": "You can buy tickets for the Sagrada Familia online in advance or at the ticket office near the basilica."
+        },
+        {
+            "question": "What is the Museu Nacional d'Art de Catalunya?",
+            "answer": "The Museu Nacional d'Art de Catalunya is a museum housing a vast collection of Catalan art from the Romanesque to the modern period."
+        },
+        {
+            "question": "Are there any parks in Barcelona?",
+            "answer": "Yes, Barcelona has many beautiful parks, including Park Guell, Parc de la Ciutadella, and Montjuïc."
+        },
+        {
+            "question": "What are the best day trips from Barcelona?",
+            "answer": "Some great day trips from Barcelona include Montserrat, Sitges, Tarragona, and the Costa Brava."
+        },
+        {
+            "question": "What is the El Raval neighborhood known for?",
+            "answer": "El Raval is a diverse and vibrant neighborhood known for its multicultural atmosphere, street art, and trendy bars."
+        },
+        {
+            "question": "What is the Casa Milà (La Pedrera)?",
+            "answer": "Casa Milà, also known as La Pedrera, is a modernist building designed by Antoni Gaudí, famous for its undulating stone facade and wrought-iron balconies."
+        },
+        {
+            "question": "Is there a nightlife scene in Barcelona?",
+            "answer": "Yes, Barcelona has a lively nightlife scene, with many bars, nightclubs, and beach parties, particularly in the El Born and Barceloneta areas."
+        },
+        {
+            "question": "What is the El Born district known for?",
+            "answer": "El Born is known for its trendy shops, art galleries, restaurants, and historical landmarks such as the Picasso Museum and the El Born Cultural Center."
+        },
+        {
+            "question": "What is the Boqueria market?",
+            "answer": "La Boqueria is a bustling public market located on La Rambla, offering fresh food, local produce, and ready-to-eat meals."
+        },
+        {
+            "question": "What is the best way to get tickets for attractions in Barcelona?",
+            "answer": "You can buy tickets online in advance or at the ticket offices of attractions. Consider purchasing the Barcelona Card for discounts and skip-the-line access."
+        },
+        {
+            "question": "What is the modernist architecture in Barcelona?",
+            "answer": "Barcelona is home to many modernist buildings, particularly designed by Antoni Gaudí, including the Sagrada Familia, Casa Batlló, and Casa Milà."
+        },
+        {
+            "question": "Can I visit the Montjuïc Castle?",
+            "answer": "Yes, Montjuïc Castle is open to the public, offering great views of the city and the Mediterranean Sea."
+        },
+        {
+            "question": "What is the Arc de Triomf?",
+            "answer": "The Arc de Triomf is a triumphal arch built for the 1888 Barcelona Universal Exposition, located near the Ciutadella Park."
+        },
+        {
+            "question": "How do I get to the beach in Barcelona?",
+            "answer": "You can easily reach the beach by walking from the Barceloneta neighborhood or taking the metro to the Barceloneta station."
+        },
+        {
+            "question": "What is the nightlife like in the Barceloneta neighborhood?",
+            "answer": "Barceloneta has a laid-back nightlife scene, with many beachside bars and seafood restaurants, perfect for evening drinks and tapas."
+        },                      
+      {
+        "question": "Where can I find the Gothic Quarter?",
+        "answer": "The Gothic Quarter is located in the Ciutat Vella district, near La Rambla and Plaça Catalunya."
+      },
+      {
+        "question": "How do I get to the Camp Nou stadium?",
+        "answer": "Take Metro Line 3 to Les Corts or Palau Reial station, and it's a short walk from there."
+      },
+      {
+        "question": "What is the best time to visit Barcelona?",
+        "answer": "The best time to visit is in spring (April to June) or fall (September to November) when the weather is pleasant."
+      },
+      {
+        "question": "How can I get from the airport to the city center?",
+        "answer": "You can take the Aerobus, a taxi, or the R2 Nord train to reach the city center."
+      },
+      {
+        "question": "Where can I see flamenco in Barcelona?",
+        "answer": "You can enjoy flamenco performances at Tablao Flamenco Cordobés on La Rambla."
+      },
+      {
+        "question": "Is Barcelona safe for tourists?",
+        "answer": "Yes, Barcelona is generally safe, but beware of pickpockets in crowded areas like La Rambla."
+      },
+      {
+        "question": "What is the currency used in Barcelona?",
+        "answer": "Barcelona, like the rest of Spain, uses the Euro (€)."
+      },
+      {
+        "question": "How much does a metro ticket cost in Barcelona?",
+        "answer": "A single metro ticket costs around €2.40, and a T-Casual card offers 10 rides for €11.35."
+      },
+      {
+        "question": "Where can I find the best churros in Barcelona?",
+        "answer": "Granja Dulcinea and Xurreria Trebol are popular spots for churros in Barcelona."
+      },
+      {
+        "question": "How do I visit the Magic Fountain of Montjuïc?",
+        "answer": "Take Metro Line 1 or Line 3 to Plaça Espanya, and the fountain is a short walk away."
+      },
+      {
+        "question": "What is the most famous park in Barcelona?",
+        "answer": "Park Güell, designed by Antoni Gaudí, is the most famous park in Barcelona."
+      },
+      {
+        "question": "Can I use contactless payments in Barcelona?",
+        "answer": "Yes, contactless payments are widely accepted in Barcelona, including in shops, restaurants, and public transport."
+      },
+      {
+        "question": "Where can I find rooftop bars in Barcelona?",
+        "answer": "Popular rooftop bars include Hotel Barceló Raval and Skybar at Grand Hotel Central."
+      },
+      {
+        "question": "How do I get to Barceloneta Beach?",
+        "answer": "Take Metro Line 4 to Barceloneta station and walk 10 minutes to the beach."
+      },
+      {
+        "question": "What languages are spoken in Barcelona?",
+        "answer": "Catalan and Spanish are the official languages in Barcelona."
+      },
+      {
+        "question": "Where can I buy SIM cards in Barcelona?",
+        "answer": "You can buy SIM cards at mobile stores like Orange, Vodafone, and at the airport."
+      },
+      {
+        "question": "How do I visit the Arc de Triomf?",
+        "answer": "Take Metro Line 1 to Arc de Triomf station, and it’s located just outside the station."
+      },
+      {
+        "question": "Where is the best place to watch the sunset in Barcelona?",
+        "answer": "Bunkers del Carmel offers one of the best sunset views in the city."
+      },
+      {
+        "question": "What is La Rambla?",
+        "answer": "La Rambla is a famous street in Barcelona known for its lively atmosphere, shops, and restaurants."
+      },
+      {
+        "question": "Can I drink tap water in Barcelona?",
+        "answer": "Yes, tap water in Barcelona is safe to drink, but some may prefer bottled water for taste."
+      },
+      {
+        "question": "How do I get tickets for the Sagrada Familia?",
+        "answer": "You can buy tickets online through the official Sagrada Familia website or at the entrance."
+      },
+      {
+        "question": "Where can I take a day trip from Barcelona?",
+        "answer": "Montserrat, Sitges, and Girona are popular day-trip destinations from Barcelona."
+      },
+      {
+        "question": "What is the Barcelona Card?",
+        "answer": "The Barcelona Card offers free transport, discounts, and free entry to many attractions."
+      },
+      {
+        "question": "How do I get to the Boqueria Market?",
+        "answer": "The Boqueria Market is located on La Rambla, near the Liceu Metro station (Line 3)."
+      },
+      {
+        "question": "What is the history of the Barcelona Cathedral?",
+        "answer": "The cathedral was built between the 13th and 15th centuries and is dedicated to Saint Eulalia."
+      },
+      {
+        "question": "Where can I try paella in Barcelona?",
+        "answer": "You can try authentic paella at restaurants like Can Solé or 7 Portes."
+      },
+      {
+        "question": "What is a 'pintxo'?",
+        "answer": "A pintxo is a small snack typically served on bread, originating from northern Spain."
+      },
+      {
+        "question": "Where can I rent bikes in Barcelona?",
+        "answer": "You can rent bikes from companies like Donkey Republic or Green Bikes Barcelona."
+      },
+      {
+        "question": "How do I explore Barcelona by bus?",
+        "answer": "The TMB buses and hop-on-hop-off tourist buses are great ways to explore the city."
+      },
+      {
+        "question": "What is the Picasso Museum famous for?",
+        "answer": "The Picasso Museum houses one of the most extensive collections of Pablo Picasso’s early works."
+      },
+      {
+        "question": "Can I visit the Barcelona Aquarium?",
+        "answer": "Yes, the Barcelona Aquarium is located at Port Vell and is open daily."
+      },
+      {
+        "question": "Where can I enjoy nightlife in Barcelona?",
+        "answer": "The El Raval and El Born neighborhoods are popular for bars and clubs."
+      },
+      {
+        "question": "How do I get to Tibidabo Amusement Park?",
+        "answer": "Take the L7 train to Av. Tibidabo, followed by the Tibidabo funicular or bus."
+      },
+      {
+        "question": "What is the best way to explore the Eixample district?",
+        "answer": "Walking or cycling is the best way to explore the grid-patterned streets and modernist buildings."
+      },
+      {
+        "question": "How do I visit Casa Milà?",
+        "answer": "Casa Milà, or La Pedrera, is on Passeig de Gràcia and is accessible by Metro Line 3 or Line 5."
+      },
+      {
+        "question": "What are some free things to do in Barcelona?",
+        "answer": "You can explore Park Güell’s free zone, visit the Magic Fountain show, or walk through El Born and the Gothic Quarter."
+      },
+      {
+        "question": "How do I get to Montjuïc Castle?",
+        "answer": "Take the Montjuïc Cable Car from Paral·lel Metro station, or use the bus line 150."
+      },
+      {
+        "question": "What is the Barceloneta neighborhood known for?",
+        "answer": "Barceloneta is famous for its beaches, seafood restaurants, and vibrant atmosphere."
+      },
+      {
+        "question": "How do I see street art in Barcelona?",
+        "answer": "Visit neighborhoods like El Raval and Poblenou, known for their vibrant street art."
+      },
+      {
+        "question": "Where can I watch FC Barcelona play?",
+        "answer": "You can watch FC Barcelona games at the Camp Nou stadium."
+      },
+      {
+        "question": "What’s the best way to travel to Sitges from Barcelona?",
+        "answer": "Take a train from Barcelona-Sants or Passeig de Gràcia; the journey takes about 40 minutes."
+      },
+      {
+        "question": "Where can I find vegetarian or vegan food in Barcelona?",
+        "answer": "Restaurants like Teresa Carles and Flax & Kale are great options for plant-based meals."
+      },
+      {
+        "question": "How can I avoid long lines at popular attractions?",
+        "answer": "Buy tickets online in advance for attractions like the Sagrada Familia and Park Güell."
+      },
+      {
+        "question": "What is Barcelona's local market culture like?",
+        "answer": "Markets like La Boqueria and Mercat de Sant Antoni are vibrant places to explore local food and products."
+      },
+      {
+        "question": "What are the traditional dishes of Barcelona?",
+        "answer": "Try dishes like 'escalivada,' 'botifarra,' and 'pa amb tomàquet' while in the city."
+      },
+      {
+        "question": "Where is the best place to shop for souvenirs?",
+        "answer": "El Born and Passeig de Gràcia offer unique boutique stores for souvenirs."
+      },
+      {
+        "question": "What is the Raval neighborhood like?",
+        "answer": "El Raval is a diverse, artsy neighborhood known for its vibrant culture and street art."
+      },
+      {
+        "question": "How do I get around Barcelona at night?",
+        "answer": "Use night buses, known as NitBus, or taxis for late-night travel."
+      },
+      {
+        "question": "What is the Fira de Santa Llúcia?",
+        "answer": "It's a traditional Christmas market held annually near the Barcelona Cathedral."
+      },
+      {
+        "question": "How do I visit the Palau de la Música Catalana?",
+        "answer": "You can take guided tours or attend concerts to experience this architectural gem."
+      },
+      {
+        "question": "Where is the best spot for seafood in Barcelona?",
+        "answer": "The Barceloneta area is renowned for its seafood restaurants."
+      },
+      {
+        "question": "What’s the local etiquette for tipping in Barcelona?",
+        "answer": "Tipping is not mandatory but appreciated; rounding up the bill or leaving 5–10% is common."
+      },
+      {
+        "question": "How do I explore the Collserola Natural Park?",
+        "answer": "Take the FGC train to stations like Baixador de Vallvidrera for hiking trails."
+      },
+      {
+        "question": "What is a 'calçotada'?",
+        "answer": "A 'calçotada' is a traditional Catalan barbecue featuring calçots (grilled green onions)."
+      },
+      {
+        "question": "Where can I see modernist architecture in Barcelona?",
+        "answer": "Passeig de Gràcia is home to modernist masterpieces like Casa Batlló and Casa Milà."
+      },
+      {
+        "question": "What are the best viewpoints in Barcelona?",
+        "answer": "Bunkers del Carmel, Park Güell, and Montjuïc offer stunning views of the city."
+      },
+      {
+        "question": "How do I visit the Museu Nacional d’Art de Catalunya?",
+        "answer": "The museum is located on Montjuïc and is accessible via Metro Line 1 to Plaça Espanya."
+      },
+      {
+        "question": "What festivals should I attend in Barcelona?",
+        "answer": "Festivals like La Mercè in September and Sonar Festival in June are must-sees."
+      },
+      {
+        "question": "Where can I learn about Catalan history?",
+        "answer": "Visit the Museu d’Història de Catalunya in the Barceloneta area."
+      },
+      {
+        "question": "How do I reach the Laberint d’Horta park?",
+        "answer": "Take Metro Line 3 to Mundet station and walk to the park."
+      },
+      {
+        "question": "Where can I see live jazz in Barcelona?",
+        "answer": "The Harlem Jazz Club and Jamboree are popular venues for live jazz performances."
+      },
+      {
+        "question": "What is the best way to explore Montjuïc hill?",
+        "answer": "Use the Montjuïc funicular or cable car, and walk to see various attractions."
+      },
+      {
+        "question": "How do I visit the CaixaForum Barcelona?",
+        "answer": "The CaixaForum is near Plaça Espanya and accessible by Metro Line 1 or Line 3."
+      },
+      {
+        "question": "What are some unique experiences in Barcelona?",
+        "answer": "Attend a human towers event (castells) or join a Catalan cooking class."
+      },
+      {
+        "question": "Where can I try Catalan wines in Barcelona?",
+        "answer": "Bars like Vila Viniteca and Monvínic are great for tasting local wines."
+      },
+      {
+        "question": "What are Barcelona’s most famous beaches?",
+        "answer": "Barceloneta, Nova Icaria, and Bogatell are the most popular beaches in the city."
+      },
+      {
+        "question": "How do I visit the Born Cultural Centre?",
+        "answer": "The Born Cultural Centre is in the El Born neighborhood, near Jaume I Metro station."
+      },
+      {
+        "question": "Where can I find artisan goods in Barcelona?",
+        "answer": "El Born and Gràcia neighborhoods are known for their artisan shops and crafts."
+      },
+      {
+        "question": "What’s the significance of the Sagrada Familia?",
+        "answer": "It’s a UNESCO World Heritage site and Gaudí’s most famous architectural masterpiece."
+      },
+      {
+        "question": "How do I explore the beaches outside Barcelona?",
+        "answer": "Take the train to nearby coastal towns like Sitges or Castelldefels."
+      },
+      {
+        "question": "What is a 'vermut' in Barcelona?",
+        "answer": "A 'vermut' is a traditional Catalan aperitif, often enjoyed with tapas in the afternoon."
+      },
+      {
+        "question": "How do I reach the Santa Maria del Mar church?",
+        "answer": "The church is located in El Born, near Jaume I Metro station (Line 4)."
+      },
+      {
+        "question": "Where can I experience Catalan dance in Barcelona?",
+        "answer": "Attend a Sardana dance performance near the Barcelona Cathedral on Sundays."
+      },
+      {
+        "question": "What are the top shopping areas in Barcelona?",
+        "answer": "Passeig de Gràcia, El Born, and Portal de l’Àngel are popular for shopping."
+      },
+      {
+        "question": "How do I visit the Zoo of Barcelona?",
+        "answer": "The Barcelona Zoo is located in Parc de la Ciutadella, accessible by Metro Line 4."
+      }
+    ]
+  }
+  

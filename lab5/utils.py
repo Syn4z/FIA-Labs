@@ -215,7 +215,7 @@ def valid_passport_image(image_path):
         # print("The head size is not valid.")
         return False
 
-    # print("\nThe photo is accepted for a passport.")
+    print("\nThe photo is accepted for a passport.")
     return True
 
 def split_data(labels_file, output_folder):
